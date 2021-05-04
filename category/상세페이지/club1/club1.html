@@ -1,0 +1,2147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title id="page_title"></title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" />
+    <link rel="stylesheet" href="club1.css" />
+
+    <link rel="stylesheet" href ="fullpage.css"/>
+    <script src="http://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/jquery.fullPage.min.js"></script>
+    
+    <script src="fullpage.js"></script>
+</head>
+
+<body>
+    <nav class="status-bar">
+        <a href="../../../index.html" class="status-bar__logo">
+          <span>GNU CLUB</span>
+        </a>
+        <div class="status-bar__right">
+          <div class=status-bar__menu>
+            <button class="status-bar__btn">소개</button>
+              <div class="status-bar__content">
+                <a href="../../../information/information.html">인사말</a>
+              </div>
+          </div>
+          <div class=status-bar__menu>
+            <button class="status-bar__btn">동아리 분과</button> 
+              <div class="status-bar__content">
+                <a href="../../cate_festival.html">공연 분과</a>
+                <a href="../../cate_global.html">국제 분과</a>
+                <a href="../../cate_paint.html">그림 분과</a>
+                <a href="../../cate_martial.html">무예 분과</a>
+                <a href="../../cate_literature.html">문학 분과</a>
+                <a href="../../cate_volunteer.html">봉사 분과</a>
+                <a href="../../cate_culture.html">생활 분과</a>
+                <a href="../../cate_language.html">외국어 분과</a>
+                <a href="../../cate_religion.html">종교 분과</a>
+                <a href="../../cate_startup.html">창업 분과</a>
+                <a href="../../cate_physical.html">체육 분과</a>
+                <a href="../../cate_education.html">학술 분과</a>
+              </div>
+          </div>   
+        </div>
+      </nav>
+    <div id="fullpage">
+        <!-- section1 -->
+        <div class="section">
+            <div class="club__back"></div> <!--파랑배경-->
+            <main class="club">
+                <div class="club__img-box">
+                    <img id="club_profile" src="" alt="" class="club__image">
+                </div>
+                <h1 id="club_title"></h1>
+                <h4 id="club_cate" class="club__section"></h4>
+                <div class="club__infos">
+                    <div class="club__info">
+                        <div class = "info__icon" ><i class="far fa-bookmark"></i></div>
+                            <p class="info__title">동아리명</p>
+                            <p id = "club_name"></p>
+                    </div>
+                    <div class="club__info">
+                        <div class = "info__icon" ><i class="fas fa-map-marker-alt"></i></div>
+                        <p class="info__title">위치</p>
+                        <p id = "club_location"></p>
+                    </div>
+                    <div class="club__info">
+                        <div class = "info__icon" ><i class="fas fa-phone-volume"></i></div>
+                        <p class="info__title">전화번호</p>
+                        <p id = "club_tel"></p>
+                    </div>
+                    <div class="club__info">
+                        <div class = "info__icon" ><i class="far fa-calendar-alt"></i></div>
+                        <p class="info__title" >SNS</p>
+                        <p id = "club_sns"></p>
+                    </div>
+                    <div class="club__info info__last">
+                        <div class = "icon__last" ><i class="far fa-flag"></i></div>
+                        <p class="info__title title__last">목적</p>
+                        <p id="club_purpose"></p>
+                    </div>
+                </div>
+            
+            </main>
+        </div>
+
+        <!-- section2 -->
+        <div class="section">
+            <div class ="Main_box">
+                <div class = "State_name_box">
+                    <p class = "Main_Name"> What We Do </p>
+                </div>
+                <ul class="activity_list">
+                    <li class="activity_content"> <div class="circle"></div>
+                        <p class = "State_in_box" id = "club_head_1"> </p>
+                        <p class = "letter_in_box" id = "club_Activity_1"> </p>
+                    </li>
+                    <li class="activity_content"> <div class="circle"></div>
+                        <p class = "State_in_box" id = "club_head_2"> </p>
+                        <p class = "letter_in_box" id = "club_Activity_2"> </p>
+                    </li>
+                    <li class="activity_content"> <div class="circle"></div>
+                        <p class = "State_in_box" id = "club_head_3"> </p>
+                        <p class = "letter_in_box" id = "club_Activity_3"> </p>
+                    </li>
+                    <li class="activity_content"> <div class="circle"></div>
+                        <p class = "State_in_box" id = "club_head_4"> </p>
+                        <p class = "letter_in_box" id = "club_Activity_4"> </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- section3 -->
+        <div class="section">
+            <div class ="Main_box_picture">
+                <div class = "State_name_box_picture">
+                    <p class = "Main_Name_picture"> Club Activity Photos </p>
+                </div>
+                <ul class="activity_list_picture">
+                    <li class="activity_content_picture">
+                        <div class='bigPictureWrapper'>
+                            <div class='bigPicture'>
+                            </div>
+                        </div>
+                        <img id="activity1_pirture" src="" alt="" style="width: 300px; height: 200px;"> 
+                    </li>                  
+                    <li class="activity_content_picture"> 
+                        <img id="activity2_pirture" src="" alt="" style="width: 300px; height: 200px;">                     </li>
+                    <li class="activity_content_picture"> 
+                        <img id="activity3_pirture" src="" alt="" style="width: 300px; height: 200px;">                     </li>
+                    <li class="activity_content_picture"> 
+                        <img id="activity4_pirture" src="" alt="" style="width: 300px; height: 200px;">                     </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+<script type="text/javascript">
+	$(document).ready(function (e){
+		
+		$(document).on("click","img",function(){
+			var path = $(this).attr('src')
+			showImage(path);
+		});//end click event
+		
+		function showImage(fileCallPath){
+		    
+		    $(".bigPictureWrapper").css("display","flex").show();
+		    
+		    $(".bigPicture")
+		    .html("<img src='"+fileCallPath+"' >")
+		    .animate({width:'100%', height: '100%'}, 400); //이거바꿨어요 기존 1000
+		    
+		  }//end fileCallPath
+		  
+		$(".bigPictureWrapper").on("click", function(e){
+		    $(".bigPicture").animate({width:'0%', height: '0%'}, 400); //이거바꿨어요 기존 1000
+		    setTimeout(function(){
+		      $('.bigPictureWrapper').hide();
+		    }, 400); //이거바꿨어요 기존 1000
+		  });//end bigWrapperClick event
+	});
+</script>
+<script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-analytics.js"></script>
+<script>
+    temp = location.href.split("?");
+    id = temp[1];
+</script>
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyCEGFpfI7EBmgJJvMewzXhDxO7sandkGWQ",
+    authDomain: "gnuclub-2622e.firebaseapp.com",
+    databaseURL: "https://gnuclub-2622e.firebaseio.com",
+    projectId: "gnuclub-2622e",
+    storageBucket: "gnuclub-2622e.appspot.com",
+    messagingSenderId: "879844473252",
+    appId: "1:879844473252:web:ad2bc900746b254dbe6931",
+    measurementId: "G-D55KWD54ZR"
+  };
+  // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+
+/*---------------동아리 데이터 영역---------------*/
+//공연분과 - 기라성
+if (id == "festival_club1"){
+        var title = document.getElementById("page_title");
+        title.innerHTML = "공연분과 > 기라성";
+        // 분과구분
+        var club_cate = document.getElementById('club_cate');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/기라성/00_분과');
+        dbRef.on('value', snap => club_cate.innerText = snap.val());
+        // 프로필사진
+        var club_profile = document.getElementById('club_profile');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/기라성/0_프로필사진');
+        dbRef.on('value', snap => club_profile.src = snap.val());    
+        // 동아리명
+        var club_name = document.getElementById('club_name');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/기라성/1_동아리명');
+        dbRef.on('value', snap => club_name.innerText = snap.val());
+        dbRef.on('value', snap => club_title.innerText = snap.val());
+        // 위치
+        var club_location = document.getElementById('club_location');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/기라성/2_위치');
+        dbRef.on('value', snap => club_location.innerText = snap.val());
+        // 전화번호
+        var club_tel = document.getElementById('club_tel');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/기라성/3_전화번호');
+        dbRef.on('value', snap => club_tel.innerText = snap.val());
+        // SNS
+        var club_since = document.getElementById('club_sns');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/기라성/4_SNS');
+        dbRef.on('value', snap => club_sns.innerText = snap.val());
+        // 목적
+        var club_purpose = document.getElementById('club_purpose');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/기라성/5_목적');
+        dbRef.on('value', snap => club_purpose.innerText = snap.val());
+        // WhatWeDo
+            // 활동1
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/기라성/6_활동1제목');
+        dbRef.on('value', snap => club_head_1.innerText = snap.val());
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/기라성/6_활동1내용');
+        dbRef.on('value', snap => club_Activity_1.innerText = snap.val());
+            // 활동2
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/기라성/7_활동2제목');
+        dbRef.on('value', snap => club_head_2.innerText = snap.val());
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/기라성/7_활동2내용');
+        dbRef.on('value', snap => club_Activity_2.innerText = snap.val());
+            // 활동3
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/기라성/8_활동3제목');
+        dbRef.on('value', snap => club_head_3.innerText = snap.val());
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/기라성/8_활동3내용');
+        dbRef.on('value', snap => club_Activity_3.innerText = snap.val());
+            // 활동4
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/기라성/9_활동4제목');
+        dbRef.on('value', snap => club_head_4.innerText = snap.val());
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/기라성/9_활동4내용');
+        dbRef.on('value', snap => club_Activity_4.innerText = snap.val());
+        // Club Activity Photos
+        var activity1_pirture = document.getElementById('activity1_pirture');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/기라성/활동사진1');
+        dbRef.on('value', snap => activity1_pirture.src = snap.val());
+        var activity2_pirture = document.getElementById('activity2_pirture');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/기라성/활동사진2');
+        dbRef.on('value', snap => activity2_pirture.src = snap.val());
+        var activity3_pirture = document.getElementById('activity3_pirture');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/기라성/활동사진3');
+        dbRef.on('value', snap => activity3_pirture.src = snap.val());
+        var activity4_pirture = document.getElementById('activity4_pirture');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/기라성/활동사진4');
+        dbRef.on('value', snap => activity4_pirture.src = snap.val());
+        
+    }
+//공연분과 - 베이비 스트링스
+    else if (id == "festival_club2"){
+        var title = document.getElementById("page_title");
+        title.innerHTML = "공연분과 > 베이비 스트링스";
+         // 분과구분
+        var club_cate = document.getElementById('club_cate');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/베이비 스트링스/00_분과');
+        dbRef.on('value', snap => club_cate.innerText = snap.val());
+        // 프로필사진
+        var club_profile = document.getElementById('club_profile');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/베이비 스트링스/0_프로필사진');
+        dbRef.on('value', snap => club_profile.src = snap.val());    
+        // 동아리명
+        var club_name = document.getElementById('club_name');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/베이비 스트링스/1_동아리명');
+        dbRef.on('value', snap => club_name.innerText = snap.val());
+        dbRef.on('value', snap => club_title.innerText = snap.val());
+        // 위치
+        var club_location = document.getElementById('club_location');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/베이비 스트링스/2_위치');
+        dbRef.on('value', snap => club_location.innerText = snap.val());
+        // 전화번호
+        var club_tel = document.getElementById('club_tel');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/베이비 스트링스/3_전화번호');
+        dbRef.on('value', snap => club_tel.innerText = snap.val());
+        // SNS
+        var club_since = document.getElementById('club_sns');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/베이비 스트링스/4_SNS');
+        dbRef.on('value', snap => club_sns.innerText = snap.val());
+
+        // 목적
+        var club_purpose = document.getElementById('club_purpose');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/베이비 스트링스/5_목적');
+        dbRef.on('value', snap => club_purpose.innerText = snap.val());
+    }
+//공연분과 - 남가람
+    else if (id == "festival_club3"){var title = document.getElementById("page_title");
+        title.innerHTML = "공연분과 > 남가람";
+         // 분과구분
+        var club_cate = document.getElementById('club_cate');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/남가람/00_분과');
+        dbRef.on('value', snap => club_cate.innerText = snap.val());
+        // 프로필사진
+        var club_profile = document.getElementById('club_profile');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/남가람/0_프로필사진');
+        dbRef.on('value', snap => club_profile.src = snap.val());    
+        // 동아리명
+        var club_name = document.getElementById('club_name');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/남가람/1_동아리명');
+        dbRef.on('value', snap => club_name.innerText = snap.val());
+        dbRef.on('value', snap => club_title.innerText = snap.val());
+        // 위치
+        var club_location = document.getElementById('club_location');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/남가람/2_위치');
+        dbRef.on('value', snap => club_location.innerText = snap.val());
+        // 전화번호
+        var club_tel = document.getElementById('club_tel');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/남가람/3_전화번호');
+        dbRef.on('value', snap => club_tel.innerText = snap.val());
+        // SNS
+        var club_since = document.getElementById('club_sns');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/남가람/4_SNS');
+        dbRef.on('value', snap => club_sns.innerText = snap.val());
+        
+        // 목적
+        var club_purpose = document.getElementById('club_purpose');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/남가람/5_목적');
+        dbRef.on('value', snap => club_purpose.innerText = snap.val());
+    }
+//공연분과 - 빛소리
+else if (id == "festival_club4"){
+        var title = document.getElementById("page_title");
+        title.innerHTML = "공연분과 > 빛소리";
+         // 분과구분
+        var club_cate = document.getElementById('club_cate');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/빛소리/00_분과');
+        dbRef.on('value', snap => club_cate.innerText = snap.val());
+        // 프로필사진
+        var club_profile = document.getElementById('club_profile');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/빛소리/0_프로필사진');
+        dbRef.on('value', snap => club_profile.src = snap.val());    
+        // 동아리명
+        var club_name = document.getElementById('club_name');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/빛소리/1_동아리명');
+        dbRef.on('value', snap => club_name.innerText = snap.val());
+        dbRef.on('value', snap => club_title.innerText = snap.val());
+        // 위치
+        var club_location = document.getElementById('club_location');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/빛소리/2_위치');
+        dbRef.on('value', snap => club_location.innerText = snap.val());
+        // 전화번호
+        var club_tel = document.getElementById('club_tel');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/빛소리/3_전화번호');
+        dbRef.on('value', snap => club_tel.innerText = snap.val());
+        // SNS
+        var club_since = document.getElementById('club_sns');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/빛소리/4_SNS');
+        dbRef.on('value', snap => club_sns.innerText = snap.val());
+        
+        // 목적
+        var club_purpose = document.getElementById('club_purpose');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/빛소리/5_목적');
+        dbRef.on('value', snap => club_purpose.innerText = snap.val());
+    }
+//공연분과 - 바로크
+else if (id == "festival_club5"){
+    var title = document.getElementById("page_title");
+        title.innerHTML = "공연분과 > 바로크";
+         // 분과구분
+        var club_cate = document.getElementById('club_cate');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/바로크/00_분과');
+        dbRef.on('value', snap => club_cate.innerText = snap.val());
+        // 프로필사진
+        var club_profile = document.getElementById('club_profile');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/바로크/0_프로필사진');
+        dbRef.on('value', snap => club_profile.src = snap.val());    
+        // 동아리명
+        var club_name = document.getElementById('club_name');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/바로크/1_동아리명');
+        dbRef.on('value', snap => club_name.innerText = snap.val());
+        dbRef.on('value', snap => club_title.innerText = snap.val());
+        // 위치
+        var club_location = document.getElementById('club_location');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/바로크/2_위치');
+        dbRef.on('value', snap => club_location.innerText = snap.val());
+        // 전화번호
+        var club_tel = document.getElementById('club_tel');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/바로크/3_전화번호');
+        dbRef.on('value', snap => club_tel.innerText = snap.val());
+        // SNS
+        var club_since = document.getElementById('club_sns');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/바로크/4_SNS');
+        dbRef.on('value', snap => club_sns.innerText = snap.val());
+        
+        // 목적
+        var club_purpose = document.getElementById('club_purpose');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/바로크/5_목적');
+        dbRef.on('value', snap => club_purpose.innerText = snap.val());
+    }
+//공연분과 - 햇귀
+else if (id == "festival_club6"){
+    var title = document.getElementById("page_title");
+        title.innerHTML = "공연분과 > 햇귀";
+         // 분과구분
+        var club_cate = document.getElementById('club_cate');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/햇귀/00_분과');
+        dbRef.on('value', snap => club_cate.innerText = snap.val());
+        // 프로필사진
+        var club_profile = document.getElementById('club_profile');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/햇귀/0_프로필사진');
+        dbRef.on('value', snap => club_profile.src = snap.val());    
+        // 동아리명
+        var club_name = document.getElementById('club_name');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/햇귀/1_동아리명');
+        dbRef.on('value', snap => club_name.innerText = snap.val());
+        dbRef.on('value', snap => club_title.innerText = snap.val());
+        // 위치
+        var club_location = document.getElementById('club_location');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/햇귀/2_위치');
+        dbRef.on('value', snap => club_location.innerText = snap.val());
+        // 전화번호
+        var club_tel = document.getElementById('club_tel');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/햇귀/3_전화번호');
+        dbRef.on('value', snap => club_tel.innerText = snap.val());
+        // SNS
+        var club_since = document.getElementById('club_sns');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/햇귀/4_SNS');
+        dbRef.on('value', snap => club_sns.innerText = snap.val());
+        
+        // 목적
+        var club_purpose = document.getElementById('club_purpose');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/햇귀/5_목적');
+        dbRef.on('value', snap => club_purpose.innerText = snap.val());
+    }
+//공연분과 - 소리울림
+else if (id == "festival_club7"){
+    var title = document.getElementById("page_title");
+        title.innerHTML = "공연분과 > 소리울림";
+         // 분과구분
+        var club_cate = document.getElementById('club_cate');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/소리울림/00_분과');
+        dbRef.on('value', snap => club_cate.innerText = snap.val());
+        // 프로필사진
+        var club_profile = document.getElementById('club_profile');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/소리울림/0_프로필사진');
+        dbRef.on('value', snap => club_profile.src = snap.val());    
+        // 동아리명
+        var club_name = document.getElementById('club_name');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/소리울림/1_동아리명');
+        dbRef.on('value', snap => club_name.innerText = snap.val());
+        dbRef.on('value', snap => club_title.innerText = snap.val());
+        // 위치
+        var club_location = document.getElementById('club_location');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/소리울림/2_위치');
+        dbRef.on('value', snap => club_location.innerText = snap.val());
+        // 전화번호
+        var club_tel = document.getElementById('club_tel');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/소리울림/3_전화번호');
+        dbRef.on('value', snap => club_tel.innerText = snap.val());
+        // SNS
+        var club_since = document.getElementById('club_sns');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/소리울림/4_SNS');
+        dbRef.on('value', snap => club_sns.innerText = snap.val());
+        // 목적
+        var club_purpose = document.getElementById('club_purpose');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/소리울림/5_목적');
+        dbRef.on('value', snap => club_purpose.innerText = snap.val());
+    }
+//공연분과 - 악동
+else if (id == "festival_club8"){
+    var title = document.getElementById("page_title");
+        title.innerHTML = "공연분과 > 악동";
+         // 분과구분
+        var club_cate = document.getElementById('club_cate');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/악동/00_분과');
+        dbRef.on('value', snap => club_cate.innerText = snap.val());
+        // 프로필사진
+        var club_profile = document.getElementById('club_profile');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/악동/0_프로필사진');
+        dbRef.on('value', snap => club_profile.src = snap.val());    
+        // 동아리명
+        var club_name = document.getElementById('club_name');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/악동/1_동아리명');
+        dbRef.on('value', snap => club_name.innerText = snap.val());
+        dbRef.on('value', snap => club_title.innerText = snap.val());
+        // 위치
+        var club_location = document.getElementById('club_location');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/악동/2_위치');
+        dbRef.on('value', snap => club_location.innerText = snap.val());
+        // 전화번호
+        var club_tel = document.getElementById('club_tel');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/악동/3_전화번호');
+        dbRef.on('value', snap => club_tel.innerText = snap.val());
+        // SNS
+        var club_since = document.getElementById('club_sns');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/악동/4_SNS');
+        dbRef.on('value', snap => club_sns.innerText = snap.val());
+        // 목적
+        var club_purpose = document.getElementById('club_purpose');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/악동/5_목적');
+        dbRef.on('value', snap => club_purpose.innerText = snap.val());
+    }
+//공연분과 - 래펄즈
+else if (id == "festival_club9"){
+    var title = document.getElementById("page_title");
+        title.innerHTML = "공연분과 > 래펄즈";
+         // 분과구분
+        var club_cate = document.getElementById('club_cate');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/레펄즈/00_분과');
+        dbRef.on('value', snap => club_cate.innerText = snap.val());
+        // 프로필사진
+        var club_profile = document.getElementById('club_profile');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/레펄즈/0_프로필사진');
+        dbRef.on('value', snap => club_profile.src = snap.val());    
+        // 동아리명
+        var club_name = document.getElementById('club_name');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/레펄즈/1_동아리명');
+        dbRef.on('value', snap => club_name.innerText = snap.val());
+        dbRef.on('value', snap => club_title.innerText = snap.val());
+        // 위치
+        var club_location = document.getElementById('club_location');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/레펄즈/2_위치');
+        dbRef.on('value', snap => club_location.innerText = snap.val());
+        // 전화번호
+        var club_tel = document.getElementById('club_tel');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/레펄즈/3_전화번호');
+        dbRef.on('value', snap => club_tel.innerText = snap.val());
+        // SNS
+        var club_since = document.getElementById('club_sns');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/레펄즈/4_SNS');
+        dbRef.on('value', snap => club_sns.innerText = snap.val());
+        // 목적
+        var club_purpose = document.getElementById('club_purpose');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/레펄즈/5_목적');
+        dbRef.on('value', snap => club_purpose.innerText = snap.val());
+    }
+//공연분과 - 토네이도
+else if (id == "festival_club10"){
+    var title = document.getElementById("page_title");
+        title.innerHTML = "공연분과 > 토네이도";
+         // 분과구분
+        var club_cate = document.getElementById('club_cate');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/토네이도/00_분과');
+        dbRef.on('value', snap => club_cate.innerText = snap.val());
+        // 프로필사진
+        var club_profile = document.getElementById('club_profile');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/토네이도/0_프로필사진');
+        dbRef.on('value', snap => club_profile.src = snap.val());    
+        // 동아리명
+        var club_name = document.getElementById('club_name');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/토네이도/1_동아리명');
+        dbRef.on('value', snap => club_name.innerText = snap.val());
+        dbRef.on('value', snap => club_title.innerText = snap.val());
+        // 위치
+        var club_location = document.getElementById('club_location');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/토네이도/2_위치');
+        dbRef.on('value', snap => club_location.innerText = snap.val());
+        // 전화번호
+        var club_tel = document.getElementById('club_tel');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/토네이도/3_전화번호');
+        dbRef.on('value', snap => club_tel.innerText = snap.val());
+        // SNS
+        var club_since = document.getElementById('club_sns');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/토네이도/4_SNS');
+        dbRef.on('value', snap => club_sns.innerText = snap.val());
+        // 목적
+        var club_purpose = document.getElementById('club_purpose');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/토네이도/5_목적');
+        dbRef.on('value', snap => club_purpose.innerText = snap.val());
+    }
+//공연분과 - 빅이글
+else if (id == "festival_club11"){
+    var title = document.getElementById("page_title");
+        title.innerHTML = "공연분과 > 빅이글";
+         // 분과구분
+        var club_cate = document.getElementById('club_cate');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/빅이글/00_분과');
+        dbRef.on('value', snap => club_cate.innerText = snap.val());
+        // 프로필사진
+        var club_profile = document.getElementById('club_profile');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/빅이글/0_프로필사진');
+        dbRef.on('value', snap => club_profile.src = snap.val());    
+        // 동아리명
+        var club_name = document.getElementById('club_name');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/빅이글/1_동아리명');
+        dbRef.on('value', snap => club_name.innerText = snap.val());
+        dbRef.on('value', snap => club_title.innerText = snap.val());
+        // 위치
+        var club_location = document.getElementById('club_location');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/빅이글/2_위치');
+        dbRef.on('value', snap => club_location.innerText = snap.val());
+        // 전화번호
+        var club_tel = document.getElementById('club_tel');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/빅이글/3_전화번호');
+        dbRef.on('value', snap => club_tel.innerText = snap.val());
+        // SNS
+        var club_since = document.getElementById('club_sns');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/빅이글/4_SNS');
+        dbRef.on('value', snap => club_sns.innerText = snap.val());
+        // 목적
+        var club_purpose = document.getElementById('club_purpose');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/빅이글/5_목적');
+        dbRef.on('value', snap => club_purpose.innerText = snap.val());
+    }
+//공연분과 - 경상극예술연구회
+else if (id == "festival_club12"){
+    var title = document.getElementById("page_title");
+        title.innerHTML = "공연분과 > 경상극예술연구회";
+         // 분과구분
+        var club_cate = document.getElementById('club_cate');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/경상극예술연구회/00_분과');
+        dbRef.on('value', snap => club_cate.innerText = snap.val());
+        // 프로필사진
+        var club_profile = document.getElementById('club_profile');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/경상극예술연구회/0_프로필사진');
+        dbRef.on('value', snap => club_profile.src = snap.val());    
+        // 동아리명
+        var club_name = document.getElementById('club_name');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/경상극예술연구회/1_동아리명');
+        dbRef.on('value', snap => club_name.innerText = snap.val());
+        dbRef.on('value', snap => club_title.innerText = snap.val());
+        // 위치
+        var club_location = document.getElementById('club_location');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/경상극예술연구회/2_위치');
+        dbRef.on('value', snap => club_location.innerText = snap.val());
+        // 전화번호
+        var club_tel = document.getElementById('club_tel');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/경상극예술연구회/3_전화번호');
+        dbRef.on('value', snap => club_tel.innerText = snap.val());
+        // SNS
+        var club_since = document.getElementById('club_sns');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/경상극예술연구회/4_SNS');
+        dbRef.on('value', snap => club_sns.innerText = snap.val());
+        // 목적
+        var club_purpose = document.getElementById('club_purpose');
+        var dbRef = firebase.database().ref().child('카테고리/공연분과/경상극예술연구회/5_목적');
+        dbRef.on('value', snap => club_purpose.innerText = snap.val());
+    }
+
+//국제분과 - RCY
+else if (id == "global_club1"){
+    var title = document.getElementById("page_title");
+        title.innerHTML = "국제분과 > RCY";
+         // 분과구분
+        var club_cate = document.getElementById('club_cate');
+        var dbRef = firebase.database().ref().child('카테고리/국제분과/RCY/00_분과');
+        dbRef.on('value', snap => club_cate.innerText = snap.val());
+        // 프로필사진
+        var club_profile = document.getElementById('club_profile');
+        var dbRef = firebase.database().ref().child('카테고리/국제분과/RCY/0_프로필사진');
+        dbRef.on('value', snap => club_profile.src = snap.val());    
+        // 동아리명
+        var club_name = document.getElementById('club_name');
+        var dbRef = firebase.database().ref().child('카테고리/국제분과/RCY/1_동아리명');
+        dbRef.on('value', snap => club_name.innerText = snap.val());
+        dbRef.on('value', snap => club_title.innerText = snap.val());
+        // 위치
+        var club_location = document.getElementById('club_location');
+        var dbRef = firebase.database().ref().child('카테고리/국제분과/RCY/2_위치');
+        dbRef.on('value', snap => club_location.innerText = snap.val());
+        // 전화번호
+        var club_tel = document.getElementById('club_tel');
+        var dbRef = firebase.database().ref().child('카테고리/국제분과/RCY/3_전화번호');
+        dbRef.on('value', snap => club_tel.innerText = snap.val());
+        // SNS
+        var club_since = document.getElementById('club_sns');
+        var dbRef = firebase.database().ref().child('카테고리/국제분과/RCY/4_SNS');
+        dbRef.on('value', snap => club_sns.innerText = snap.val());
+        // 목적
+        var club_purpose = document.getElementById('club_purpose');
+        var dbRef = firebase.database().ref().child('카테고리/국제분과/RCY/5_목적');
+        dbRef.on('value', snap => club_purpose.innerText = snap.val());
+    }
+//국제분과 - 로타랙트
+else if (id == "global_club2"){
+    var title = document.getElementById("page_title");
+        title.innerHTML = "국제분과 > 로타랙트";
+        // 분과구분
+    var club_cate = document.getElementById('club_cate');
+    var dbRef = firebase.database().ref().child('카테고리/국제분과/로타랙트/00_분과');
+    dbRef.on('value', snap => club_cate.innerText = snap.val());
+    // 프로필사진
+    var club_profile = document.getElementById('club_profile');
+    var dbRef = firebase.database().ref().child('카테고리/국제분과/로타랙트/0_프로필사진');
+    dbRef.on('value', snap => club_profile.src = snap.val());    
+    // 동아리명
+    var club_name = document.getElementById('club_name');
+    var dbRef = firebase.database().ref().child('카테고리/국제분과/로타랙트/1_동아리명');
+    dbRef.on('value', snap => club_name.innerText = snap.val());
+    dbRef.on('value', snap => club_title.innerText = snap.val());
+    // 위치
+    var club_location = document.getElementById('club_location');
+    var dbRef = firebase.database().ref().child('카테고리/국제분과/로타랙트/2_위치');
+    dbRef.on('value', snap => club_location.innerText = snap.val());
+    // 전화번호
+    var club_tel = document.getElementById('club_tel');
+    var dbRef = firebase.database().ref().child('카테고리/국제분과/로타랙트/3_전화번호');
+    dbRef.on('value', snap => club_tel.innerText = snap.val());
+    // SNS
+    var club_since = document.getElementById('club_sns');
+    var dbRef = firebase.database().ref().child('카테고리/국제분과/로타랙트/4_SNS');
+    dbRef.on('value', snap => club_sns.innerText = snap.val());
+    // 목적
+    var club_purpose = document.getElementById('club_purpose');
+    var dbRef = firebase.database().ref().child('카테고리/공연분과/로타랙트/5_목적');
+    dbRef.on('value', snap => club_purpose.innerText = snap.val());
+    }
+
+
+//그림분과_그릴자유
+else if (id == "paint_club1"){
+    var title = document.getElementById("page_title");
+        title.innerHTML = "그림분과 > 그릴자유";
+         // 분과구분
+        var club_cate = document.getElementById('club_cate');
+        var dbRef = firebase.database().ref().child('카테고리/그림분과/그릴자유/00_분과');
+        dbRef.on('value', snap => club_cate.innerText = snap.val());
+        // 프로필사진
+        var club_profile = document.getElementById('club_profile');
+        var dbRef = firebase.database().ref().child('카테고리/그림분과/그릴자유/0_프로필사진');
+        dbRef.on('value', snap => club_profile.src = snap.val());    
+        // 동아리명
+        var club_name = document.getElementById('club_name');
+        var dbRef = firebase.database().ref().child('카테고리/그림분과/그릴자유/1_동아리명');
+        dbRef.on('value', snap => club_name.innerText = snap.val());
+        dbRef.on('value', snap => club_title.innerText = snap.val());
+        // 위치
+        var club_location = document.getElementById('club_location');
+        var dbRef = firebase.database().ref().child('카테고리/그림분과/그릴자유/2_위치');
+        dbRef.on('value', snap => club_location.innerText = snap.val());
+        // 전화번호
+        var club_tel = document.getElementById('club_tel');
+        var dbRef = firebase.database().ref().child('카테고리/그림분과/그릴자유/3_전화번호');
+        dbRef.on('value', snap => club_tel.innerText = snap.val());
+        // SNS
+        var club_since = document.getElementById('club_sns');
+        var dbRef = firebase.database().ref().child('카테고리/그림분과/그릴자유/4_SNS');
+        dbRef.on('value', snap => club_sns.innerText = snap.val());
+        
+        // 목적
+        var club_purpose = document.getElementById('club_purpose');
+        var dbRef = firebase.database().ref().child('카테고리/그림분과/그릴자유/5_목적');
+        dbRef.on('value', snap => club_purpose.innerText = snap.val());
+    }
+//그림분과_흔적
+else if (id == "paint_club2"){
+    var title = document.getElementById("page_title");
+        title.innerHTML = "그림분과 > 흔적";
+         // 분과구분
+        var club_cate = document.getElementById('club_cate');
+        var dbRef = firebase.database().ref().child('카테고리/그림분과/흔적/00_분과');
+        dbRef.on('value', snap => club_cate.innerText = snap.val());
+        // 프로필사진
+        var club_profile = document.getElementById('club_profile');
+        var dbRef = firebase.database().ref().child('카테고리/그림분과/흔적/0_프로필사진');
+        dbRef.on('value', snap => club_profile.src = snap.val());    
+        // 동아리명
+        var club_name = document.getElementById('club_name');
+        var dbRef = firebase.database().ref().child('카테고리/그림분과/흔적/1_동아리명');
+        dbRef.on('value', snap => club_name.innerText = snap.val());
+        dbRef.on('value', snap => club_title.innerText = snap.val());
+        // 위치
+        var club_location = document.getElementById('club_location');
+        var dbRef = firebase.database().ref().child('카테고리/그림분과/흔적/2_위치');
+        dbRef.on('value', snap => club_location.innerText = snap.val());
+        // 전화번호
+        var club_tel = document.getElementById('club_tel');
+        var dbRef = firebase.database().ref().child('카테고리/그림분과/흔적/3_전화번호');
+        dbRef.on('value', snap => club_tel.innerText = snap.val());
+        // SNS
+        var club_since = document.getElementById('club_sns');
+        var dbRef = firebase.database().ref().child('카테고리/그림분과/흔적/4_SNS');
+        dbRef.on('value', snap => club_sns.innerText = snap.val());
+        
+        // 목적
+        var club_purpose = document.getElementById('club_purpose');
+        var dbRef = firebase.database().ref().child('카테고리/그림분과/흔적/5_목적');
+        dbRef.on('value', snap => club_purpose.innerText = snap.val());
+    }
+
+//무예분과_화랑회
+else if (id == "martial_club1"){
+    var title = document.getElementById("page_title");
+        title.innerHTML = "무예분과 > 화랑회";
+    // 분과구분
+    var club_cate = document.getElementById('club_cate');
+    var dbRef = firebase.database().ref().child('카테고리/무예분과/화랑회/00_분과');
+    dbRef.on('value', snap => club_cate.innerText = snap.val());
+    // 프로필사진
+    var club_profile = document.getElementById('club_profile');
+    var dbRef = firebase.database().ref().child('카테고리/무예분과/화랑회/0_프로필사진');
+    dbRef.on('value', snap => club_profile.src = snap.val());    
+    // 동아리명
+    var club_name = document.getElementById('club_name');
+    var dbRef = firebase.database().ref().child('카테고리/무예분과/화랑회/1_동아리명');
+    dbRef.on('value', snap => club_name.innerText = snap.val());
+    dbRef.on('value', snap => club_title.innerText = snap.val());
+    // 위치
+    var club_location = document.getElementById('club_location');
+    var dbRef = firebase.database().ref().child('카테고리/무예분과/화랑회/2_위치');
+    dbRef.on('value', snap => club_location.innerText = snap.val());
+    // 전화번호
+    var club_tel = document.getElementById('club_tel');
+    var dbRef = firebase.database().ref().child('카테고리/무예분과/화랑회/3_전화번호');
+    dbRef.on('value', snap => club_tel.innerText = snap.val());
+    // SNS
+    var club_since = document.getElementById('club_sns');
+    var dbRef = firebase.database().ref().child('카테고리/무예분과/화랑회/4_SNS');
+    dbRef.on('value', snap => club_sns.innerText = snap.val());
+    // 목적
+    var club_purpose = document.getElementById('club_purpose');
+    var dbRef = firebase.database().ref().child('카테고리/무예분과/화랑회/5_목적');
+    dbRef.on('value', snap => club_purpose.innerText = snap.val());
+    }
+//무예분과_먼다
+else if (id == "martial_club2"){
+    var title = document.getElementById("page_title");
+        title.innerHTML = "무예분과 > 먼다";
+    // 분과구분
+    var club_cate = document.getElementById('club_cate');
+    var dbRef = firebase.database().ref().child('카테고리/무예분과/먼다/00_분과');
+    dbRef.on('value', snap => club_cate.innerText = snap.val());
+    // 프로필사진
+    var club_profile = document.getElementById('club_profile');
+    var dbRef = firebase.database().ref().child('카테고리/무예분과/먼다/0_프로필사진');
+    dbRef.on('value', snap => club_profile.src = snap.val());    
+    // 동아리명
+    var club_name = document.getElementById('club_name');
+    var dbRef = firebase.database().ref().child('카테고리/무예분과/먼다/1_동아리명');
+    dbRef.on('value', snap => club_name.innerText = snap.val());
+    dbRef.on('value', snap => club_title.innerText = snap.val());
+    // 위치
+    var club_location = document.getElementById('club_location');
+    var dbRef = firebase.database().ref().child('카테고리/무예분과/먼다/2_위치');
+    dbRef.on('value', snap => club_location.innerText = snap.val());
+    // 전화번호
+    var club_tel = document.getElementById('club_tel');
+    var dbRef = firebase.database().ref().child('카테고리/무예분과/먼다/3_전화번호');
+    dbRef.on('value', snap => club_tel.innerText = snap.val());
+    // SNS
+    var club_since = document.getElementById('club_sns');
+    var dbRef = firebase.database().ref().child('카테고리/무예분과/먼다/4_SNS');
+    dbRef.on('value', snap => club_sns.innerText = snap.val());
+    // 목적
+    var club_purpose = document.getElementById('club_purpose');
+    var dbRef = firebase.database().ref().child('카테고리/무예분과/먼다/5_목적');
+    dbRef.on('value', snap => club_purpose.innerText = snap.val());
+    }
+//무예분과_경상정도회
+else if (id == "martial_club3"){
+    var title = document.getElementById("page_title");
+        title.innerHTML = "무예분과 > 경상정도회";
+    // 분과구분
+    var club_cate = document.getElementById('club_cate');
+    var dbRef = firebase.database().ref().child('카테고리/무예분과/경상정도회/00_분과');
+    dbRef.on('value', snap => club_cate.innerText = snap.val());
+    // 프로필사진
+    var club_profile = document.getElementById('club_profile');
+    var dbRef = firebase.database().ref().child('카테고리/무예분과/경상정도회/0_프로필사진');
+    dbRef.on('value', snap => club_profile.src = snap.val());    
+    // 동아리명
+    var club_name = document.getElementById('club_name');
+    var dbRef = firebase.database().ref().child('카테고리/무예분과/경상정도회/1_동아리명');
+    dbRef.on('value', snap => club_name.innerText = snap.val());
+    dbRef.on('value', snap => club_title.innerText = snap.val());
+    // 위치
+    var club_location = document.getElementById('club_location');
+    var dbRef = firebase.database().ref().child('카테고리/무예분과/경상정도회/2_위치');
+    dbRef.on('value', snap => club_location.innerText = snap.val());
+    // 전화번호
+    var club_tel = document.getElementById('club_tel');
+    var dbRef = firebase.database().ref().child('카테고리/무예분과/경상정도회/3_전화번호');
+    dbRef.on('value', snap => club_tel.innerText = snap.val());
+    // SNS
+    var club_since = document.getElementById('club_sns');
+    var dbRef = firebase.database().ref().child('카테고리/무예분과/경상정도회/4_SNS');
+    dbRef.on('value', snap => club_sns.innerText = snap.val());
+    // 목적
+    var club_purpose = document.getElementById('club_purpose');
+    var dbRef = firebase.database().ref().child('카테고리/무예분과/경상정도회/5_목적');
+    dbRef.on('value', snap => club_purpose.innerText = snap.val());
+    }
+
+//문학분과_미네르바
+else if (id == "literature_club1"){
+    // 분과구분
+    var club_cate = document.getElementById('club_cate');
+    var dbRef = firebase.database().ref().child('카테고리/문학분과/미네르바/00_분과');
+    dbRef.on('value', snap => club_cate.innerText = snap.val());
+    // 프로필사진
+    var club_profile = document.getElementById('club_profile');
+    var dbRef = firebase.database().ref().child('카테고리/문학분과/미네르바/0_프로필사진');
+    dbRef.on('value', snap => club_profile.src = snap.val());    
+    // 동아리명
+    var club_name = document.getElementById('club_name');
+    var dbRef = firebase.database().ref().child('카테고리/문학분과/미네르바/1_동아리명');
+    dbRef.on('value', snap => club_name.innerText = snap.val());
+    dbRef.on('value', snap => club_title.innerText = snap.val());
+    // 위치
+    var club_location = document.getElementById('club_location');
+    var dbRef = firebase.database().ref().child('카테고리/문학분과/미네르바/2_위치');
+    dbRef.on('value', snap => club_location.innerText = snap.val());
+    // 전화번호
+    var club_tel = document.getElementById('club_tel');
+    var dbRef = firebase.database().ref().child('카테고리/문학분과/미네르바/3_전화번호');
+    dbRef.on('value', snap => club_tel.innerText = snap.val());
+    // SNS
+    var club_since = document.getElementById('club_sns');
+    var dbRef = firebase.database().ref().child('카테고리/문학분과/미네르바/4_SNS');
+    dbRef.on('value', snap => club_sns.innerText = snap.val());
+    // 목적
+    var club_purpose = document.getElementById('club_purpose');
+    var dbRef = firebase.database().ref().child('카테고리/문학분과/미네르바/5_목적');
+    dbRef.on('value', snap => club_purpose.innerText = snap.val());
+    }
+//문학분과_유니피스
+else if (id == "literature_club2"){
+    // 분과구분
+    var club_cate = document.getElementById('club_cate');
+    var dbRef = firebase.database().ref().child('카테고리/문학분과/유니피스/00_분과');
+    dbRef.on('value', snap => club_cate.innerText = snap.val());
+    // 프로필사진
+    var club_profile = document.getElementById('club_profile');
+    var dbRef = firebase.database().ref().child('카테고리/문학분과/유니피스/0_프로필사진');
+    dbRef.on('value', snap => club_profile.src = snap.val());    
+    // 동아리명
+    var club_name = document.getElementById('club_name');
+    var dbRef = firebase.database().ref().child('카테고리/문학분과/유니피스/1_동아리명');
+    dbRef.on('value', snap => club_name.innerText = snap.val());
+    dbRef.on('value', snap => club_title.innerText = snap.val());
+    // 위치
+    var club_location = document.getElementById('club_location');
+    var dbRef = firebase.database().ref().child('카테고리/문학분과/유니피스/2_위치');
+    dbRef.on('value', snap => club_location.innerText = snap.val());
+    // 전화번호
+    var club_tel = document.getElementById('club_tel');
+    var dbRef = firebase.database().ref().child('카테고리/문학분과/유니피스/3_전화번호');
+    dbRef.on('value', snap => club_tel.innerText = snap.val());
+    // SNS
+    var club_since = document.getElementById('club_sns');
+    var dbRef = firebase.database().ref().child('카테고리/문학분과/유니피스/4_SNS');
+    dbRef.on('value', snap => club_sns.innerText = snap.val());
+    // 목적
+    var club_purpose = document.getElementById('club_purpose');
+    var dbRef = firebase.database().ref().child('카테고리/문학분과/유니피스/5_목적');
+    dbRef.on('value', snap => club_purpose.innerText = snap.val());
+    }
+
+//봉사분과_굿네이버스
+else if (id == "volunteer_club1"){
+    // 분과구분
+    var club_cate = document.getElementById('club_cate');
+    var dbRef = firebase.database().ref().child('카테고리/봉사분과/굿네이버스/00_분과');
+    dbRef.on('value', snap => club_cate.innerText = snap.val());
+    // 프로필사진
+    var club_profile = document.getElementById('club_profile');
+    var dbRef = firebase.database().ref().child('카테고리/봉사분과/굿네이버스/0_프로필사진');
+    dbRef.on('value', snap => club_profile.src = snap.val());    
+    // 동아리명
+    var club_name = document.getElementById('club_name');
+    var dbRef = firebase.database().ref().child('카테고리/봉사분과/굿네이버스/1_동아리명');
+    dbRef.on('value', snap => club_name.innerText = snap.val());
+    dbRef.on('value', snap => club_title.innerText = snap.val());
+    // 위치
+    var club_location = document.getElementById('club_location');
+    var dbRef = firebase.database().ref().child('카테고리/봉사분과/굿네이버스/2_위치');
+    dbRef.on('value', snap => club_location.innerText = snap.val());
+    // 전화번호
+    var club_tel = document.getElementById('club_tel');
+    var dbRef = firebase.database().ref().child('카테고리/봉사분과/굿네이버스/3_전화번호');
+    dbRef.on('value', snap => club_tel.innerText = snap.val());
+    // SNS
+    var club_since = document.getElementById('club_sns');
+    var dbRef = firebase.database().ref().child('카테고리/봉사분과/굿네이버스/4_SNS');
+    dbRef.on('value', snap => club_sns.innerText = snap.val());
+    // 목적
+    var club_purpose = document.getElementById('club_purpose');
+    var dbRef = firebase.database().ref().child('카테고리/봉사분과/굿네이버스/5_목적');
+    dbRef.on('value', snap => club_purpose.innerText = snap.val());
+    }
+//봉사분과_해피빌더스
+else if (id == "volunteer_club2"){
+    // 분과구분
+    var club_cate = document.getElementById('club_cate');
+    var dbRef = firebase.database().ref().child('카테고리/봉사분과/해피빌더스/00_분과');
+    dbRef.on('value', snap => club_cate.innerText = snap.val());
+    // 프로필사진
+    var club_profile = document.getElementById('club_profile');
+    var dbRef = firebase.database().ref().child('카테고리/봉사분과/해피빌더스/0_프로필사진');
+    dbRef.on('value', snap => club_profile.src = snap.val());    
+    // 동아리명
+    var club_name = document.getElementById('club_name');
+    var dbRef = firebase.database().ref().child('카테고리/봉사분과/해피빌더스/1_동아리명');
+    dbRef.on('value', snap => club_name.innerText = snap.val());
+    dbRef.on('value', snap => club_title.innerText = snap.val());
+    // 위치
+    var club_location = document.getElementById('club_location');
+    var dbRef = firebase.database().ref().child('카테고리/봉사분과/해피빌더스/2_위치');
+    dbRef.on('value', snap => club_location.innerText = snap.val());
+    // 전화번호
+    var club_tel = document.getElementById('club_tel');
+    var dbRef = firebase.database().ref().child('카테고리/봉사분과/해피빌더스/3_전화번호');
+    dbRef.on('value', snap => club_tel.innerText = snap.val());
+    // SNS
+    var club_since = document.getElementById('club_sns');
+    var dbRef = firebase.database().ref().child('카테고리/봉사분과/해피빌더스/4_SNS');
+    dbRef.on('value', snap => club_sns.innerText = snap.val());
+    // 목적
+    var club_purpose = document.getElementById('club_purpose');
+    var dbRef = firebase.database().ref().child('카테고리/봉사분과/해피빌더스/5_목적');
+    dbRef.on('value', snap => club_purpose.innerText = snap.val());
+    }
+//봉사분과_손소리나눔
+else if (id == "volunteer_club3"){
+    // 분과구분
+    var club_cate = document.getElementById('club_cate');
+    var dbRef = firebase.database().ref().child('카테고리/봉사분과/손소리나눔/00_분과');
+    dbRef.on('value', snap => club_cate.innerText = snap.val());
+    // 프로필사진
+    var club_profile = document.getElementById('club_profile');
+    var dbRef = firebase.database().ref().child('카테고리/봉사분과/손소리나눔/0_프로필사진');
+    dbRef.on('value', snap => club_profile.src = snap.val());    
+    // 동아리명
+    var club_name = document.getElementById('club_name');
+    var dbRef = firebase.database().ref().child('카테고리/봉사분과/손소리나눔/1_동아리명');
+    dbRef.on('value', snap => club_name.innerText = snap.val());
+    dbRef.on('value', snap => club_title.innerText = snap.val());
+    // 위치
+    var club_location = document.getElementById('club_location');
+    var dbRef = firebase.database().ref().child('카테고리/봉사분과/손소리나눔/2_위치');
+    dbRef.on('value', snap => club_location.innerText = snap.val());
+    // 전화번호
+    var club_tel = document.getElementById('club_tel');
+    var dbRef = firebase.database().ref().child('카테고리/봉사분과/손소리나눔/3_전화번호');
+    dbRef.on('value', snap => club_tel.innerText = snap.val());
+    // SNS
+    var club_since = document.getElementById('club_sns');
+    var dbRef = firebase.database().ref().child('카테고리/봉사분과/손소리나눔/4_SNS');
+    dbRef.on('value', snap => club_sns.innerText = snap.val());
+    // 목적
+    var club_purpose = document.getElementById('club_purpose');
+    var dbRef = firebase.database().ref().child('카테고리/봉사분과/손소리나눔/5_목적');
+    dbRef.on('value', snap => club_purpose.innerText = snap.val());
+    }
+//봉사분과_참깨마당
+else if (id == "volunteer_club4"){
+    // 분과구분
+    var club_cate = document.getElementById('club_cate');
+    var dbRef = firebase.database().ref().child('카테고리/봉사분과/참깨마당/00_분과');
+    dbRef.on('value', snap => club_cate.innerText = snap.val());
+    // 프로필사진
+    var club_profile = document.getElementById('club_profile');
+    var dbRef = firebase.database().ref().child('카테고리/봉사분과/참깨마당/0_프로필사진');
+    dbRef.on('value', snap => club_profile.src = snap.val());    
+    // 동아리명
+    var club_name = document.getElementById('club_name');
+    var dbRef = firebase.database().ref().child('카테고리/봉사분과/참깨마당/1_동아리명');
+    dbRef.on('value', snap => club_name.innerText = snap.val());
+    dbRef.on('value', snap => club_title.innerText = snap.val());
+    // 위치
+    var club_location = document.getElementById('club_location');
+    var dbRef = firebase.database().ref().child('카테고리/봉사분과/참깨마당/2_위치');
+    dbRef.on('value', snap => club_location.innerText = snap.val());
+    // 전화번호
+    var club_tel = document.getElementById('club_tel');
+    var dbRef = firebase.database().ref().child('카테고리/봉사분과/참깨마당/3_전화번호');
+    dbRef.on('value', snap => club_tel.innerText = snap.val());
+    // SNS
+    var club_since = document.getElementById('club_sns');
+    var dbRef = firebase.database().ref().child('카테고리/봉사분과/참깨마당/4_SNS');
+    dbRef.on('value', snap => club_sns.innerText = snap.val());
+    // 목적
+    var club_purpose = document.getElementById('club_purpose');
+    var dbRef = firebase.database().ref().child('카테고리/봉사분과/참깨마당/5_목적');
+    dbRef.on('value', snap => club_purpose.innerText = snap.val());
+    }
+//봉사분과_시나브로
+else if (id == "volunteer_club5"){
+    // 분과구분
+    var club_cate = document.getElementById('club_cate');
+    var dbRef = firebase.database().ref().child('카테고리/봉사분과/시나브로/00_분과');
+    dbRef.on('value', snap => club_cate.innerText = snap.val());
+    // 프로필사진
+    var club_profile = document.getElementById('club_profile');
+    var dbRef = firebase.database().ref().child('카테고리/봉사분과/시나브로/0_프로필사진');
+    dbRef.on('value', snap => club_profile.src = snap.val());    
+    // 동아리명
+    var club_name = document.getElementById('club_name');
+    var dbRef = firebase.database().ref().child('카테고리/봉사분과/시나브로/1_동아리명');
+    dbRef.on('value', snap => club_name.innerText = snap.val());
+    dbRef.on('value', snap => club_title.innerText = snap.val());
+    // 위치
+    var club_location = document.getElementById('club_location');
+    var dbRef = firebase.database().ref().child('카테고리/봉사분과/시나브로/2_위치');
+    dbRef.on('value', snap => club_location.innerText = snap.val());
+    // 전화번호
+    var club_tel = document.getElementById('club_tel');
+    var dbRef = firebase.database().ref().child('카테고리/봉사분과/시나브로/3_전화번호');
+    dbRef.on('value', snap => club_tel.innerText = snap.val());
+    // SNS
+    var club_since = document.getElementById('club_sns');
+    var dbRef = firebase.database().ref().child('카테고리/봉사분과/시나브로/4_SNS');
+    dbRef.on('value', snap => club_sns.innerText = snap.val());
+    // 목적
+    var club_purpose = document.getElementById('club_purpose');
+    var dbRef = firebase.database().ref().child('카테고리/봉사분과/시나브로/5_목적');
+    dbRef.on('value', snap => club_purpose.innerText = snap.val());
+    }
+//봉사분과_한울회
+else if (id == "volunteer_club6"){
+    // 분과구분
+    var club_cate = document.getElementById('club_cate');
+    var dbRef = firebase.database().ref().child('카테고리/봉사분과/한울회/00_분과');
+    dbRef.on('value', snap => club_cate.innerText = snap.val());
+    // 프로필사진
+    var club_profile = document.getElementById('club_profile');
+    var dbRef = firebase.database().ref().child('카테고리/봉사분과/한울회/0_프로필사진');
+    dbRef.on('value', snap => club_profile.src = snap.val());    
+    // 동아리명
+    var club_name = document.getElementById('club_name');
+    var dbRef = firebase.database().ref().child('카테고리/봉사분과/한울회/1_동아리명');
+    dbRef.on('value', snap => club_name.innerText = snap.val());
+    dbRef.on('value', snap => club_title.innerText = snap.val());
+    // 위치
+    var club_location = document.getElementById('club_location');
+    var dbRef = firebase.database().ref().child('카테고리/봉사분과/한울회/2_위치');
+    dbRef.on('value', snap => club_location.innerText = snap.val());
+    // 전화번호
+    var club_tel = document.getElementById('club_tel');
+    var dbRef = firebase.database().ref().child('카테고리/봉사분과/한울회/3_전화번호');
+    dbRef.on('value', snap => club_tel.innerText = snap.val());
+    // SNS
+    var club_since = document.getElementById('club_sns');
+    var dbRef = firebase.database().ref().child('카테고리/봉사분과/한울회/4_SNS');
+    dbRef.on('value', snap => club_sns.innerText = snap.val());
+    // 목적
+    var club_purpose = document.getElementById('club_purpose');
+    var dbRef = firebase.database().ref().child('카테고리/봉사분과/한울회/5_목적');
+    dbRef.on('value', snap => club_purpose.innerText = snap.val());
+    }
+
+//생활문화분과_세상의절반
+else if (id == "culture_club1"){
+    // 분과구분
+    var club_cate = document.getElementById('club_cate');
+    var dbRef = firebase.database().ref().child('카테고리/생활분과/세상의절반/00_분과');
+    dbRef.on('value', snap => club_cate.innerText = snap.val());
+    // 프로필사진
+    var club_profile = document.getElementById('club_profile');
+    var dbRef = firebase.database().ref().child('카테고리/생활분과/세상의절반/0_프로필사진');
+    dbRef.on('value', snap => club_profile.src = snap.val());    
+    // 동아리명
+    var club_name = document.getElementById('club_name');
+    var dbRef = firebase.database().ref().child('카테고리/생활분과/세상의절반/1_동아리명');
+    dbRef.on('value', snap => club_name.innerText = snap.val());
+    dbRef.on('value', snap => club_title.innerText = snap.val());
+    // 위치
+    var club_location = document.getElementById('club_location');
+    var dbRef = firebase.database().ref().child('카테고리/생활분과/세상의절반/2_위치');
+    dbRef.on('value', snap => club_location.innerText = snap.val());
+    // 전화번호
+    var club_tel = document.getElementById('club_tel');
+    var dbRef = firebase.database().ref().child('카테고리/생활분과/세상의절반/3_전화번호');
+    dbRef.on('value', snap => club_tel.innerText = snap.val());
+    // SNS
+    var club_since = document.getElementById('club_sns');
+    var dbRef = firebase.database().ref().child('카테고리/생활분과/세상의절반/4_SNS');
+    dbRef.on('value', snap => club_sns.innerText = snap.val());
+    // 목적
+    var club_purpose = document.getElementById('club_purpose');
+    var dbRef = firebase.database().ref().child('카테고리/생활분과/세상의절반/5_목적');
+    dbRef.on('value', snap => club_purpose.innerText = snap.val());
+    }
+//생활문화분과_죽로다우회
+else if (id == "culture_club2"){
+    // 분과구분
+    var club_cate = document.getElementById('club_cate');
+    var dbRef = firebase.database().ref().child('카테고리/생활분과/죽로다우회/00_분과');
+    dbRef.on('value', snap => club_cate.innerText = snap.val());
+    // 프로필사진
+    var club_profile = document.getElementById('club_profile');
+    var dbRef = firebase.database().ref().child('카테고리/생활분과/죽로다우회/0_프로필사진');
+    dbRef.on('value', snap => club_profile.src = snap.val());    
+    // 동아리명
+    var club_name = document.getElementById('club_name');
+    var dbRef = firebase.database().ref().child('카테고리/생활분과/죽로다우회/1_동아리명');
+    dbRef.on('value', snap => club_name.innerText = snap.val());
+    dbRef.on('value', snap => club_title.innerText = snap.val());
+    // 위치
+    var club_location = document.getElementById('club_location');
+    var dbRef = firebase.database().ref().child('카테고리/생활분과/죽로다우회/2_위치');
+    dbRef.on('value', snap => club_location.innerText = snap.val());
+    // 전화번호
+    var club_tel = document.getElementById('club_tel');
+    var dbRef = firebase.database().ref().child('카테고리/생활분과/죽로다우회/3_전화번호');
+    dbRef.on('value', snap => club_tel.innerText = snap.val());
+    // SNS
+    var club_since = document.getElementById('club_sns');
+    var dbRef = firebase.database().ref().child('카테고리/생활분과/죽로다우회/4_SNS');
+    dbRef.on('value', snap => club_sns.innerText = snap.val());
+    // 목적
+    var club_purpose = document.getElementById('club_purpose');
+    var dbRef = firebase.database().ref().child('카테고리/생활분과/죽로다우회/5_목적');
+    dbRef.on('value', snap => club_purpose.innerText = snap.val());
+    }
+//생활문화분과_늘푸른솔
+else if (id == "culture_club3"){
+    // 분과구분
+    var club_cate = document.getElementById('club_cate');
+    var dbRef = firebase.database().ref().child('카테고리/생활분과/늘푸른솔/00_분과');
+    dbRef.on('value', snap => club_cate.innerText = snap.val());
+    // 프로필사진
+    var club_profile = document.getElementById('club_profile');
+    var dbRef = firebase.database().ref().child('카테고리/생활분과/늘푸른솔/0_프로필사진');
+    dbRef.on('value', snap => club_profile.src = snap.val());    
+    // 동아리명
+    var club_name = document.getElementById('club_name');
+    var dbRef = firebase.database().ref().child('카테고리/생활분과/늘푸른솔/1_동아리명');
+    dbRef.on('value', snap => club_name.innerText = snap.val());
+    dbRef.on('value', snap => club_title.innerText = snap.val());
+    // 위치
+    var club_location = document.getElementById('club_location');
+    var dbRef = firebase.database().ref().child('카테고리/생활분과/늘푸른솔/2_위치');
+    dbRef.on('value', snap => club_location.innerText = snap.val());
+    // 전화번호
+    var club_tel = document.getElementById('club_tel');
+    var dbRef = firebase.database().ref().child('카테고리/생활분과/늘푸른솔/3_전화번호');
+    dbRef.on('value', snap => club_tel.innerText = snap.val());
+    // SNS
+    var club_since = document.getElementById('club_sns');
+    var dbRef = firebase.database().ref().child('카테고리/생활분과/늘푸른솔/4_SNS');
+    dbRef.on('value', snap => club_sns.innerText = snap.val());
+    // 목적
+    var club_purpose = document.getElementById('club_purpose');
+    var dbRef = firebase.database().ref().child('카테고리/생활분과/늘푸른솔/5_목적');
+    dbRef.on('value', snap => club_purpose.innerText = snap.val());
+    }
+
+//외국어분과_경상타임연구회
+else if (id == "language_club1"){
+    // 분과구분
+    var club_cate = document.getElementById('club_cate');
+    var dbRef = firebase.database().ref().child('카테고리/외국어분과/경상타임연구회/00_분과');
+    dbRef.on('value', snap => club_cate.innerText = snap.val());
+    // 프로필사진
+    var club_profile = document.getElementById('club_profile');
+    var dbRef = firebase.database().ref().child('카테고리/외국어분과/경상타임연구회/0_프로필사진');
+    dbRef.on('value', snap => club_profile.src = snap.val());    
+    // 동아리명
+    var club_name = document.getElementById('club_name');
+    var dbRef = firebase.database().ref().child('카테고리/외국어분과/경상타임연구회/1_동아리명');
+    dbRef.on('value', snap => club_name.innerText = snap.val());
+    dbRef.on('value', snap => club_title.innerText = snap.val());
+    // 위치
+    var club_location = document.getElementById('club_location');
+    var dbRef = firebase.database().ref().child('카테고리/외국어분과/경상타임연구회/2_위치');
+    dbRef.on('value', snap => club_location.innerText = snap.val());
+    // 전화번호
+    var club_tel = document.getElementById('club_tel');
+    var dbRef = firebase.database().ref().child('카테고리/외국어분과/경상타임연구회/3_전화번호');
+    dbRef.on('value', snap => club_tel.innerText = snap.val());
+    // SNS
+    var club_since = document.getElementById('club_sns');
+    var dbRef = firebase.database().ref().child('카테고리/외국어분과/경상타임연구회/4_SNS');
+    dbRef.on('value', snap => club_sns.innerText = snap.val());
+    // 목적
+    var club_purpose = document.getElementById('club_purpose');
+    var dbRef = firebase.database().ref().child('카테고리/외국어분과/경상타임연구회/5_목적');
+    dbRef.on('value', snap => club_purpose.innerText = snap.val());
+    }
+
+//종교분과_CCC
+else if (id == "religion_club1"){
+    // 분과구분
+    var club_cate = document.getElementById('club_cate');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/CCC/00_분과');
+    dbRef.on('value', snap => club_cate.innerText = snap.val());
+    // 프로필사진
+    var club_profile = document.getElementById('club_profile');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/CCC/0_프로필사진');
+    dbRef.on('value', snap => club_profile.src = snap.val());    
+    // 동아리명
+    var club_name = document.getElementById('club_name');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/CCC/1_동아리명');
+    dbRef.on('value', snap => club_name.innerText = snap.val());
+    dbRef.on('value', snap => club_title.innerText = snap.val());
+    // 위치
+    var club_location = document.getElementById('club_location');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/CCC/2_위치');
+    dbRef.on('value', snap => club_location.innerText = snap.val());
+    // 전화번호
+    var club_tel = document.getElementById('club_tel');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/CCC/3_전화번호');
+    dbRef.on('value', snap => club_tel.innerText = snap.val());
+    // SNS
+    var club_since = document.getElementById('club_sns');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/CCC/4_SNS');
+    dbRef.on('value', snap => club_sns.innerText = snap.val());
+    // 목적
+    var club_purpose = document.getElementById('club_purpose');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/CCC/5_목적');
+    dbRef.on('value', snap => club_purpose.innerText = snap.val());
+    }
+//종교분과_JDM
+else if (id == "religion_club2"){
+    // 분과구분
+    var club_cate = document.getElementById('club_cate');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/JDM/00_분과');
+    dbRef.on('value', snap => club_cate.innerText = snap.val());
+    // 프로필사진
+    var club_profile = document.getElementById('club_profile');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/JDM/0_프로필사진');
+    dbRef.on('value', snap => club_profile.src = snap.val());    
+    // 동아리명
+    var club_name = document.getElementById('club_name');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/JDM/1_동아리명');
+    dbRef.on('value', snap => club_name.innerText = snap.val());
+    dbRef.on('value', snap => club_title.innerText = snap.val());
+    // 위치
+    var club_location = document.getElementById('club_location');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/JDM/2_위치');
+    dbRef.on('value', snap => club_location.innerText = snap.val());
+    // 전화번호
+    var club_tel = document.getElementById('club_tel');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/JDM/3_전화번호');
+    dbRef.on('value', snap => club_tel.innerText = snap.val());
+    // SNS
+    var club_since = document.getElementById('club_sns');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/JDM/4_SNS');
+    dbRef.on('value', snap => club_sns.innerText = snap.val());
+    // 목적
+    var club_purpose = document.getElementById('club_purpose');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/JDM/5_목적');
+    dbRef.on('value', snap => club_purpose.innerText = snap.val());
+    }
+//종교분과_IVF
+else if (id == "religion_club3"){
+    // 분과구분
+    var club_cate = document.getElementById('club_cate');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/IVF/00_분과');
+    dbRef.on('value', snap => club_cate.innerText = snap.val());
+    // 프로필사진
+    var club_profile = document.getElementById('club_profile');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/IVF/0_프로필사진');
+    dbRef.on('value', snap => club_profile.src = snap.val());    
+    // 동아리명
+    var club_name = document.getElementById('club_name');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/IVF/1_동아리명');
+    dbRef.on('value', snap => club_name.innerText = snap.val());
+    dbRef.on('value', snap => club_title.innerText = snap.val());
+    // 위치
+    var club_location = document.getElementById('club_location');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/IVF/2_위치');
+    dbRef.on('value', snap => club_location.innerText = snap.val());
+    // 전화번호
+    var club_tel = document.getElementById('club_tel');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/IVF/3_전화번호');
+    dbRef.on('value', snap => club_tel.innerText = snap.val());
+    // SNS
+    var club_since = document.getElementById('club_sns');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/IVF/4_SNS');
+    dbRef.on('value', snap => club_sns.innerText = snap.val());
+    // 목적
+    var club_purpose = document.getElementById('club_purpose');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/IVF/5_목적');
+    dbRef.on('value', snap => club_purpose.innerText = snap.val());
+    }
+//종교분과_SFC
+else if (id == "religion_club4"){
+    // 분과구분
+    var club_cate = document.getElementById('club_cate');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/SFC/00_분과');
+    dbRef.on('value', snap => club_cate.innerText = snap.val());
+    // 프로필사진
+    var club_profile = document.getElementById('club_profile');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/SFC/0_프로필사진');
+    dbRef.on('value', snap => club_profile.src = snap.val());    
+    // 동아리명
+    var club_name = document.getElementById('club_name');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/SFC/1_동아리명');
+    dbRef.on('value', snap => club_name.innerText = snap.val());
+    dbRef.on('value', snap => club_title.innerText = snap.val());
+    // 위치
+    var club_location = document.getElementById('club_location');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/SFC/2_위치');
+    dbRef.on('value', snap => club_location.innerText = snap.val());
+    // 전화번호
+    var club_tel = document.getElementById('club_tel');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/SFC/3_전화번호');
+    dbRef.on('value', snap => club_tel.innerText = snap.val());
+    // SNS
+    var club_since = document.getElementById('club_sns');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/SFC/4_SNS');
+    dbRef.on('value', snap => club_sns.innerText = snap.val());
+    // 목적
+    var club_purpose = document.getElementById('club_purpose');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/SFC/5_목적');
+    dbRef.on('value', snap => club_purpose.innerText = snap.val());
+    }
+//종교분과_네비게이토
+else if (id == "religion_club5"){
+    // 분과구분
+    var club_cate = document.getElementById('club_cate');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/네비게이토/00_분과');
+    dbRef.on('value', snap => club_cate.innerText = snap.val());
+    // 프로필사진
+    var club_profile = document.getElementById('club_profile');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/네비게이토/0_프로필사진');
+    dbRef.on('value', snap => club_profile.src = snap.val());    
+    // 동아리명
+    var club_name = document.getElementById('club_name');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/네비게이토/1_동아리명');
+    dbRef.on('value', snap => club_name.innerText = snap.val());
+    dbRef.on('value', snap => club_title.innerText = snap.val());
+    // 위치
+    var club_location = document.getElementById('club_location');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/네비게이토/2_위치');
+    dbRef.on('value', snap => club_location.innerText = snap.val());
+    // 전화번호
+    var club_tel = document.getElementById('club_tel');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/네비게이토/3_전화번호');
+    dbRef.on('value', snap => club_tel.innerText = snap.val());
+    // SNS
+    var club_since = document.getElementById('club_sns');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/네비게이토/4_SNS');
+    dbRef.on('value', snap => club_sns.innerText = snap.val());
+    // 목적
+    var club_purpose = document.getElementById('club_purpose');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/네비게이토/5_목적');
+    dbRef.on('value', snap => club_purpose.innerText = snap.val());
+    }
+//종교분과_CMI대학선교회
+else if (id == "religion_club6"){
+    // 분과구분
+    var club_cate = document.getElementById('club_cate');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/CMI대학선교회/00_분과');
+    dbRef.on('value', snap => club_cate.innerText = snap.val());
+    // 프로필사진
+    var club_profile = document.getElementById('club_profile');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/CMI대학선교회/0_프로필사진');
+    dbRef.on('value', snap => club_profile.src = snap.val());    
+    // 동아리명
+    var club_name = document.getElementById('club_name');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/CMI대학선교회/1_동아리명');
+    dbRef.on('value', snap => club_name.innerText = snap.val());
+    dbRef.on('value', snap => club_title.innerText = snap.val());
+    // 위치
+    var club_location = document.getElementById('club_location');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/CMI대학선교회/2_위치');
+    dbRef.on('value', snap => club_location.innerText = snap.val());
+    // 전화번호
+    var club_tel = document.getElementById('club_tel');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/CMI대학선교회/3_전화번호');
+    dbRef.on('value', snap => club_tel.innerText = snap.val());
+    // SNS
+    var club_since = document.getElementById('club_sns');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/CMI대학선교회/4_SNS');
+    dbRef.on('value', snap => club_sns.innerText = snap.val());
+    // 목적
+    var club_purpose = document.getElementById('club_purpose');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/CMI대학선교회/5_목적');
+    dbRef.on('value', snap => club_purpose.innerText = snap.val());
+    }
+//종교분과_인터콥
+else if (id == "religion_club7"){
+    // 분과구분
+    var club_cate = document.getElementById('club_cate');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/인터콥/00_분과');
+    dbRef.on('value', snap => club_cate.innerText = snap.val());
+    // 프로필사진
+    var club_profile = document.getElementById('club_profile');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/인터콥/0_프로필사진');
+    dbRef.on('value', snap => club_profile.src = snap.val());    
+    // 동아리명
+    var club_name = document.getElementById('club_name');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/인터콥/1_동아리명');
+    dbRef.on('value', snap => club_name.innerText = snap.val());
+    dbRef.on('value', snap => club_title.innerText = snap.val());
+    // 위치
+    var club_location = document.getElementById('club_location');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/인터콥/2_위치');
+    dbRef.on('value', snap => club_location.innerText = snap.val());
+    // 전화번호
+    var club_tel = document.getElementById('club_tel');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/인터콥/3_전화번호');
+    dbRef.on('value', snap => club_tel.innerText = snap.val());
+    // SNS
+    var club_since = document.getElementById('club_sns');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/인터콥/4_SNS');
+    dbRef.on('value', snap => club_sns.innerText = snap.val());
+    // 목적
+    var club_purpose = document.getElementById('club_purpose');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/인터콥/5_목적');
+    dbRef.on('value', snap => club_purpose.innerText = snap.val());
+    }
+//종교분과_ESF
+else if (id == "religion_club8"){
+    // 분과구분
+    var club_cate = document.getElementById('club_cate');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/ESF/00_분과');
+    dbRef.on('value', snap => club_cate.innerText = snap.val());
+    // 프로필사진
+    var club_profile = document.getElementById('club_profile');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/ESF/0_프로필사진');
+    dbRef.on('value', snap => club_profile.src = snap.val());    
+    // 동아리명
+    var club_name = document.getElementById('club_name');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/ESF/1_동아리명');
+    dbRef.on('value', snap => club_name.innerText = snap.val());
+    dbRef.on('value', snap => club_title.innerText = snap.val());
+    // 위치
+    var club_location = document.getElementById('club_location');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/ESF/2_위치');
+    dbRef.on('value', snap => club_location.innerText = snap.val());
+    // 전화번호
+    var club_tel = document.getElementById('club_tel');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/ESF/3_전화번호');
+    dbRef.on('value', snap => club_tel.innerText = snap.val());
+    // SNS
+    var club_since = document.getElementById('club_sns');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/ESF/4_SNS');
+    dbRef.on('value', snap => club_sns.innerText = snap.val());
+    // 목적
+    var club_purpose = document.getElementById('club_purpose');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/ESF/5_목적');
+    dbRef.on('value', snap => club_purpose.innerText = snap.val());
+    }
+//종교분과_가톨릭학생회
+else if (id == "religion_club9"){
+    // 분과구분
+    var club_cate = document.getElementById('club_cate');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/가톨릭학생회/00_분과');
+    dbRef.on('value', snap => club_cate.innerText = snap.val());
+    // 프로필사진
+    var club_profile = document.getElementById('club_profile');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/가톨릭학생회/0_프로필사진');
+    dbRef.on('value', snap => club_profile.src = snap.val());    
+    // 동아리명
+    var club_name = document.getElementById('club_name');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/가톨릭학생회/1_동아리명');
+    dbRef.on('value', snap => club_name.innerText = snap.val());
+    dbRef.on('value', snap => club_title.innerText = snap.val());
+    // 위치
+    var club_location = document.getElementById('club_location');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/가톨릭학생회/2_위치');
+    dbRef.on('value', snap => club_location.innerText = snap.val());
+    // 전화번호
+    var club_tel = document.getElementById('club_tel');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/가톨릭학생회/3_전화번호');
+    dbRef.on('value', snap => club_tel.innerText = snap.val());
+    // SNS
+    var club_since = document.getElementById('club_sns');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/가톨릭학생회/4_SNS');
+    dbRef.on('value', snap => club_sns.innerText = snap.val());
+    // 목적
+    var club_purpose = document.getElementById('club_purpose');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/가톨릭학생회/5_목적');
+    dbRef.on('value', snap => club_purpose.innerText = snap.val());
+    }
+//종교분과_증산도학생회
+else if (id == "religion_club10"){
+    // 분과구분
+    var club_cate = document.getElementById('club_cate');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/증산도학생회/00_분과');
+    dbRef.on('value', snap => club_cate.innerText = snap.val());
+    // 프로필사진
+    var club_profile = document.getElementById('club_profile');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/증산도학생회/0_프로필사진');
+    dbRef.on('value', snap => club_profile.src = snap.val());    
+    // 동아리명
+    var club_name = document.getElementById('club_name');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/증산도학생회/1_동아리명');
+    dbRef.on('value', snap => club_name.innerText = snap.val());
+    dbRef.on('value', snap => club_title.innerText = snap.val());
+    // 위치
+    var club_location = document.getElementById('club_location');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/증산도학생회/2_위치');
+    dbRef.on('value', snap => club_location.innerText = snap.val());
+    // 전화번호
+    var club_tel = document.getElementById('club_tel');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/증산도학생회/3_전화번호');
+    dbRef.on('value', snap => club_tel.innerText = snap.val());
+    // SNS
+    var club_since = document.getElementById('club_sns');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/증산도학생회/4_SNS');
+    dbRef.on('value', snap => club_sns.innerText = snap.val());
+    // 목적
+    var club_purpose = document.getElementById('club_purpose');
+    var dbRef = firebase.database().ref().child('카테고리/종교분과/증산도학생회/5_목적');
+    dbRef.on('value', snap => club_purpose.innerText = snap.val());
+    }
+
+//창업분과_apluses
+else if (id == "startup_club1"){
+    // 분과구분
+    var club_cate = document.getElementById('club_cate');
+    var dbRef = firebase.database().ref().child('카테고리/창업분과/apluses/00_분과');
+    dbRef.on('value', snap => club_cate.innerText = snap.val());
+    // 프로필사진
+    var club_profile = document.getElementById('club_profile');
+    var dbRef = firebase.database().ref().child('카테고리/창업분과/apluses/0_프로필사진');
+    dbRef.on('value', snap => club_profile.src = snap.val());    
+    // 동아리명
+    var club_name = document.getElementById('club_name');
+    var dbRef = firebase.database().ref().child('카테고리/창업분과/apluses/1_동아리명');
+    dbRef.on('value', snap => club_name.innerText = snap.val());
+    dbRef.on('value', snap => club_title.innerText = snap.val());
+    // 위치
+    var club_location = document.getElementById('club_location');
+    var dbRef = firebase.database().ref().child('카테고리/창업분과/apluses/2_위치');
+    dbRef.on('value', snap => club_location.innerText = snap.val());
+    // 전화번호
+    var club_tel = document.getElementById('club_tel');
+    var dbRef = firebase.database().ref().child('카테고리/창업분과/apluses/3_전화번호');
+    dbRef.on('value', snap => club_tel.innerText = snap.val());
+    // SNS
+    var club_since = document.getElementById('club_sns');
+    var dbRef = firebase.database().ref().child('카테고리/창업분과/apluses/4_SNS');
+    dbRef.on('value', snap => club_sns.innerText = snap.val());
+    // 목적
+    var club_purpose = document.getElementById('club_purpose');
+    var dbRef = firebase.database().ref().child('카테고리/창업분과/apluses/5_목적');
+    dbRef.on('value', snap => club_purpose.innerText = snap.val());
+    }
+
+//체육분과_경상배구회
+else if (id == "physical_club1"){
+    // 분과구분
+    var club_cate = document.getElementById('club_cate');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/경상배구회/00_분과');
+    dbRef.on('value', snap => club_cate.innerText = snap.val());
+    // 프로필사진
+    var club_profile = document.getElementById('club_profile');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/경상배구회/0_프로필사진');
+    dbRef.on('value', snap => club_profile.src = snap.val());    
+    // 동아리명
+    var club_name = document.getElementById('club_name');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/경상배구회/1_동아리명');
+    dbRef.on('value', snap => club_name.innerText = snap.val());
+    dbRef.on('value', snap => club_title.innerText = snap.val());
+    // 위치
+    var club_location = document.getElementById('club_location');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/경상배구회/2_위치');
+    dbRef.on('value', snap => club_location.innerText = snap.val());
+    // 전화번호
+    var club_tel = document.getElementById('club_tel');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/경상배구회/3_전화번호');
+    dbRef.on('value', snap => club_tel.innerText = snap.val());
+    // SNS
+    var club_since = document.getElementById('club_sns');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/경상배구회/4_SNS');
+    dbRef.on('value', snap => club_sns.innerText = snap.val());
+    // 목적
+    var club_purpose = document.getElementById('club_purpose');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/경상배구회/5_목적');
+    dbRef.on('value', snap => club_purpose.innerText = snap.val());
+    }
+//체육분과_FC BB
+else if (id == "physical_club2"){
+    // 분과구분
+    var club_cate = document.getElementById('club_cate');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/FC BB/00_분과');
+    dbRef.on('value', snap => club_cate.innerText = snap.val());
+    // 프로필사진
+    var club_profile = document.getElementById('club_profile');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/FC BB/0_프로필사진');
+    dbRef.on('value', snap => club_profile.src = snap.val());    
+    // 동아리명
+    var club_name = document.getElementById('club_name');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/FC BB/1_동아리명');
+    dbRef.on('value', snap => club_name.innerText = snap.val());
+    dbRef.on('value', snap => club_title.innerText = snap.val());
+    // 위치
+    var club_location = document.getElementById('club_location');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/FC BB/2_위치');
+    dbRef.on('value', snap => club_location.innerText = snap.val());
+    // 전화번호
+    var club_tel = document.getElementById('club_tel');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/FC BB/3_전화번호');
+    dbRef.on('value', snap => club_tel.innerText = snap.val());
+    // SNS
+    var club_since = document.getElementById('club_sns');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/FC BB/4_SNS');
+    dbRef.on('value', snap => club_sns.innerText = snap.val());
+    // 목적
+    var club_purpose = document.getElementById('club_purpose');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/FC BB/5_목적');
+    dbRef.on('value', snap => club_purpose.innerText = snap.val());
+    }
+//체육분과_개척족구단
+else if (id == "physical_club3"){
+    // 분과구분
+    var club_cate = document.getElementById('club_cate');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/개척족구단/00_분과');
+    dbRef.on('value', snap => club_cate.innerText = snap.val());
+    // 프로필사진
+    var club_profile = document.getElementById('club_profile');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/개척족구단/0_프로필사진');
+    dbRef.on('value', snap => club_profile.src = snap.val());    
+    // 동아리명
+    var club_name = document.getElementById('club_name');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/개척족구단/1_동아리명');
+    dbRef.on('value', snap => club_name.innerText = snap.val());
+    dbRef.on('value', snap => club_title.innerText = snap.val());
+    // 위치
+    var club_location = document.getElementById('club_location');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/개척족구단/2_위치');
+    dbRef.on('value', snap => club_location.innerText = snap.val());
+    // 전화번호
+    var club_tel = document.getElementById('club_tel');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/개척족구단/3_전화번호');
+    dbRef.on('value', snap => club_tel.innerText = snap.val());
+    // SNS
+    var club_since = document.getElementById('club_sns');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/개척족구단/4_SNS');
+    dbRef.on('value', snap => club_sns.innerText = snap.val());
+    // 목적
+    var club_purpose = document.getElementById('club_purpose');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/개척족구단/5_목적');
+    dbRef.on('value', snap => club_purpose.innerText = snap.val());
+    }
+//체육분과_경상야구회
+else if (id == "physical_club4"){
+    // 분과구분
+    var club_cate = document.getElementById('club_cate');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/경상야구회/00_분과');
+    dbRef.on('value', snap => club_cate.innerText = snap.val());
+    // 프로필사진
+    var club_profile = document.getElementById('club_profile');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/경상야구회/0_프로필사진');
+    dbRef.on('value', snap => club_profile.src = snap.val());    
+    // 동아리명
+    var club_name = document.getElementById('club_name');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/경상야구회/1_동아리명');
+    dbRef.on('value', snap => club_name.innerText = snap.val());
+    dbRef.on('value', snap => club_title.innerText = snap.val());
+    // 위치
+    var club_location = document.getElementById('club_location');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/경상야구회/2_위치');
+    dbRef.on('value', snap => club_location.innerText = snap.val());
+    // 전화번호
+    var club_tel = document.getElementById('club_tel');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/경상야구회/3_전화번호');
+    dbRef.on('value', snap => club_tel.innerText = snap.val());
+    // SNS
+    var club_since = document.getElementById('club_sns');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/경상야구회/4_SNS');
+    dbRef.on('value', snap => club_sns.innerText = snap.val());
+    // 목적
+    var club_purpose = document.getElementById('club_purpose');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/경상야구회/5_목적');
+    dbRef.on('value', snap => club_purpose.innerText = snap.val());
+    }
+//체육분과_ELEVEN
+else if (id == "physical_club5"){
+    // 분과구분
+    var club_cate = document.getElementById('club_cate');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/ELEVEN/00_분과');
+    dbRef.on('value', snap => club_cate.innerText = snap.val());
+    // 프로필사진
+    var club_profile = document.getElementById('club_profile');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/ELEVEN/0_프로필사진');
+    dbRef.on('value', snap => club_profile.src = snap.val());    
+    // 동아리명
+    var club_name = document.getElementById('club_name');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/ELEVEN/1_동아리명');
+    dbRef.on('value', snap => club_name.innerText = snap.val());
+    dbRef.on('value', snap => club_title.innerText = snap.val());
+    // 위치
+    var club_location = document.getElementById('club_location');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/ELEVEN/2_위치');
+    dbRef.on('value', snap => club_location.innerText = snap.val());
+    // 전화번호
+    var club_tel = document.getElementById('club_tel');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/ELEVEN/3_전화번호');
+    dbRef.on('value', snap => club_tel.innerText = snap.val());
+    // SNS
+    var club_since = document.getElementById('club_sns');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/ELEVEN/4_SNS');
+    dbRef.on('value', snap => club_sns.innerText = snap.val());
+    // 목적
+    var club_purpose = document.getElementById('club_purpose');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/ELEVEN/5_목적');
+    dbRef.on('value', snap => club_purpose.innerText = snap.val());
+    }
+//체육분과_오반칙
+else if (id == "physical_club6"){
+    // 분과구분
+    var club_cate = document.getElementById('club_cate');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/오반칙/00_분과');
+    dbRef.on('value', snap => club_cate.innerText = snap.val());
+    // 프로필사진
+    var club_profile = document.getElementById('club_profile');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/오반칙/0_프로필사진');
+    dbRef.on('value', snap => club_profile.src = snap.val());    
+    // 동아리명
+    var club_name = document.getElementById('club_name');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/오반칙/1_동아리명');
+    dbRef.on('value', snap => club_name.innerText = snap.val());
+    dbRef.on('value', snap => club_title.innerText = snap.val());
+    // 위치
+    var club_location = document.getElementById('club_location');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/오반칙/2_위치');
+    dbRef.on('value', snap => club_location.innerText = snap.val());
+    // 전화번호
+    var club_tel = document.getElementById('club_tel');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/오반칙/3_전화번호');
+    dbRef.on('value', snap => club_tel.innerText = snap.val());
+    // SNS
+    var club_since = document.getElementById('club_sns');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/오반칙/4_SNS');
+    dbRef.on('value', snap => club_sns.innerText = snap.val());
+    // 목적
+    var club_purpose = document.getElementById('club_purpose');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/오반칙/5_목적');
+    dbRef.on('value', snap => club_purpose.innerText = snap.val());
+    }
+//체육분과_점보
+else if (id == "physical_club7"){
+    // 분과구분
+    var club_cate = document.getElementById('club_cate');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/점보/00_분과');
+    dbRef.on('value', snap => club_cate.innerText = snap.val());
+    // 프로필사진
+    var club_profile = document.getElementById('club_profile');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/점보/0_프로필사진');
+    dbRef.on('value', snap => club_profile.src = snap.val());    
+    // 동아리명
+    var club_name = document.getElementById('club_name');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/점보/1_동아리명');
+    dbRef.on('value', snap => club_name.innerText = snap.val());
+    dbRef.on('value', snap => club_title.innerText = snap.val());
+    // 위치
+    var club_location = document.getElementById('club_location');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/점보/2_위치');
+    dbRef.on('value', snap => club_location.innerText = snap.val());
+    // 전화번호
+    var club_tel = document.getElementById('club_tel');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/점보/3_전화번호');
+    dbRef.on('value', snap => club_tel.innerText = snap.val());
+    // SNS
+    var club_since = document.getElementById('club_sns');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/점보/4_SNS');
+    dbRef.on('value', snap => club_sns.innerText = snap.val());
+    // 목적
+    var club_purpose = document.getElementById('club_purpose');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/점보/5_목적');
+    dbRef.on('value', snap => club_purpose.innerText = snap.val());
+    }
+//체육분과_경상테니스클럽
+else if (id == "physical_club8"){
+    // 분과구분
+    var club_cate = document.getElementById('club_cate');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/경상테니스클럽/00_분과');
+    dbRef.on('value', snap => club_cate.innerText = snap.val());
+    // 프로필사진
+    var club_profile = document.getElementById('club_profile');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/경상테니스클럽/0_프로필사진');
+    dbRef.on('value', snap => club_profile.src = snap.val());    
+    // 동아리명
+    var club_name = document.getElementById('club_name');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/경상테니스클럽/1_동아리명');
+    dbRef.on('value', snap => club_name.innerText = snap.val());
+    dbRef.on('value', snap => club_title.innerText = snap.val());
+    // 위치
+    var club_location = document.getElementById('club_location');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/경상테니스클럽/2_위치');
+    dbRef.on('value', snap => club_location.innerText = snap.val());
+    // 전화번호
+    var club_tel = document.getElementById('club_tel');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/경상테니스클럽/3_전화번호');
+    dbRef.on('value', snap => club_tel.innerText = snap.val());
+    // SNS
+    var club_since = document.getElementById('club_sns');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/경상테니스클럽/4_SNS');
+    dbRef.on('value', snap => club_sns.innerText = snap.val());
+    // 목적
+    var club_purpose = document.getElementById('club_purpose');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/경상테니스클럽/5_목적');
+    dbRef.on('value', snap => club_purpose.innerText = snap.val());
+    }
+//체육분과_민턴사랑
+else if (id == "physical_club9"){
+    // 분과구분
+    var club_cate = document.getElementById('club_cate');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/민턴사랑/00_분과');
+    dbRef.on('value', snap => club_cate.innerText = snap.val());
+    // 프로필사진
+    var club_profile = document.getElementById('club_profile');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/민턴사랑/0_프로필사진');
+    dbRef.on('value', snap => club_profile.src = snap.val());    
+    // 동아리명
+    var club_name = document.getElementById('club_name');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/민턴사랑/1_동아리명');
+    dbRef.on('value', snap => club_name.innerText = snap.val());
+    dbRef.on('value', snap => club_title.innerText = snap.val());
+    // 위치
+    var club_location = document.getElementById('club_location');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/민턴사랑/2_위치');
+    dbRef.on('value', snap => club_location.innerText = snap.val());
+    // 전화번호
+    var club_tel = document.getElementById('club_tel');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/민턴사랑/3_전화번호');
+    dbRef.on('value', snap => club_tel.innerText = snap.val());
+    // SNS
+    var club_since = document.getElementById('club_sns');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/민턴사랑/4_SNS');
+    dbRef.on('value', snap => club_sns.innerText = snap.val());
+    // 목적
+    var club_purpose = document.getElementById('club_purpose');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/민턴사랑/5_목적');
+    dbRef.on('value', snap => club_purpose.innerText = snap.val());
+    }
+//체육분과_경상탁구가족
+else if (id == "physical_club10"){
+    // 분과구분
+    var club_cate = document.getElementById('club_cate');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/경상탁구가족/00_분과');
+    dbRef.on('value', snap => club_cate.innerText = snap.val());
+    // 프로필사진
+    var club_profile = document.getElementById('club_profile');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/경상탁구가족/0_프로필사진');
+    dbRef.on('value', snap => club_profile.src = snap.val());    
+    // 동아리명
+    var club_name = document.getElementById('club_name');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/경상탁구가족/1_동아리명');
+    dbRef.on('value', snap => club_name.innerText = snap.val());
+    dbRef.on('value', snap => club_title.innerText = snap.val());
+    // 위치
+    var club_location = document.getElementById('club_location');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/경상탁구가족/2_위치');
+    dbRef.on('value', snap => club_location.innerText = snap.val());
+    // 전화번호
+    var club_tel = document.getElementById('club_tel');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/경상탁구가족/3_전화번호');
+    dbRef.on('value', snap => club_tel.innerText = snap.val());
+    // SNS
+    var club_since = document.getElementById('club_sns');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/경상탁구가족/4_SNS');
+    dbRef.on('value', snap => club_sns.innerText = snap.val());
+    // 목적
+    var club_purpose = document.getElementById('club_purpose');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/경상탁구가족/5_목적');
+    dbRef.on('value', snap => club_purpose.innerText = snap.val());
+    }
+//체육분과_경상산악회
+else if (id == "physical_club11"){
+    // 분과구분
+    var club_cate = document.getElementById('club_cate');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/경상산악회/00_분과');
+    dbRef.on('value', snap => club_cate.innerText = snap.val());
+    // 프로필사진
+    var club_profile = document.getElementById('club_profile');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/경상산악회/0_프로필사진');
+    dbRef.on('value', snap => club_profile.src = snap.val());    
+    // 동아리명
+    var club_name = document.getElementById('club_name');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/경상산악회/1_동아리명');
+    dbRef.on('value', snap => club_name.innerText = snap.val());
+    dbRef.on('value', snap => club_title.innerText = snap.val());
+    // 위치
+    var club_location = document.getElementById('club_location');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/경상산악회/2_위치');
+    dbRef.on('value', snap => club_location.innerText = snap.val());
+    // 전화번호
+    var club_tel = document.getElementById('club_tel');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/경상산악회/3_전화번호');
+    dbRef.on('value', snap => club_tel.innerText = snap.val());
+    // SNS
+    var club_since = document.getElementById('club_sns');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/경상산악회/4_SNS');
+    dbRef.on('value', snap => club_sns.innerText = snap.val());
+    // 목적
+    var club_purpose = document.getElementById('club_purpose');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/경상산악회/5_목적');
+    dbRef.on('value', snap => club_purpose.innerText = snap.val());
+    }
+//체육분과_하늘가르기
+else if (id == "physical_club12"){
+    // 분과구분
+    var club_cate = document.getElementById('club_cate');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/하늘가르기/00_분과');
+    dbRef.on('value', snap => club_cate.innerText = snap.val());
+    // 프로필사진
+    var club_profile = document.getElementById('club_profile');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/하늘가르기/0_프로필사진');
+    dbRef.on('value', snap => club_profile.src = snap.val());    
+    // 동아리명
+    var club_name = document.getElementById('club_name');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/하늘가르기/1_동아리명');
+    dbRef.on('value', snap => club_name.innerText = snap.val());
+    dbRef.on('value', snap => club_title.innerText = snap.val());
+    // 위치
+    var club_location = document.getElementById('club_location');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/하늘가르기/2_위치');
+    dbRef.on('value', snap => club_location.innerText = snap.val());
+    // 전화번호
+    var club_tel = document.getElementById('club_tel');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/하늘가르기/3_전화번호');
+    dbRef.on('value', snap => club_tel.innerText = snap.val());
+    // SNS
+    var club_since = document.getElementById('club_sns');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/하늘가르기/4_SNS');
+    dbRef.on('value', snap => club_sns.innerText = snap.val());
+    // 목적
+    var club_purpose = document.getElementById('club_purpose');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/하늘가르기/5_목적');
+    dbRef.on('value', snap => club_purpose.innerText = snap.val());
+    }
+//체육분과_경상스쿠버
+else if (id == "physical_club13"){
+    // 분과구분
+    var club_cate = document.getElementById('club_cate');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/경상스쿠버/00_분과');
+    dbRef.on('value', snap => club_cate.innerText = snap.val());
+    // 프로필사진
+    var club_profile = document.getElementById('club_profile');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/경상스쿠버/0_프로필사진');
+    dbRef.on('value', snap => club_profile.src = snap.val());    
+    // 동아리명
+    var club_name = document.getElementById('club_name');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/경상스쿠버/1_동아리명');
+    dbRef.on('value', snap => club_name.innerText = snap.val());
+    dbRef.on('value', snap => club_title.innerText = snap.val());
+    // 위치
+    var club_location = document.getElementById('club_location');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/경상스쿠버/2_위치');
+    dbRef.on('value', snap => club_location.innerText = snap.val());
+    // 전화번호
+    var club_tel = document.getElementById('club_tel');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/경상스쿠버/3_전화번호');
+    dbRef.on('value', snap => club_tel.innerText = snap.val());
+    // SNS
+    var club_since = document.getElementById('club_sns');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/경상스쿠버/4_SNS');
+    dbRef.on('value', snap => club_sns.innerText = snap.val());
+    // 목적
+    var club_purpose = document.getElementById('club_purpose');
+    var dbRef = firebase.database().ref().child('카테고리/체육분과/경상스쿠버/5_목적');
+    dbRef.on('value', snap => club_purpose.innerText = snap.val());
+    }
+
+//학술분과_미친애드
+else if (id == "education_club1"){
+    // 분과구분
+    var club_cate = document.getElementById('club_cate');
+    var dbRef = firebase.database().ref().child('카테고리/학술분과/미친애드/00_분과');
+    dbRef.on('value', snap => club_cate.innerText = snap.val());
+    // 프로필사진
+    var club_profile = document.getElementById('club_profile');
+    var dbRef = firebase.database().ref().child('카테고리/학술분과/미친애드/0_프로필사진');
+    dbRef.on('value', snap => club_profile.src = snap.val());    
+    // 동아리명
+    var club_name = document.getElementById('club_name');
+    var dbRef = firebase.database().ref().child('카테고리/학술분과/미친애드/1_동아리명');
+    dbRef.on('value', snap => club_name.innerText = snap.val());
+    dbRef.on('value', snap => club_title.innerText = snap.val());
+    // 위치
+    var club_location = document.getElementById('club_location');
+    var dbRef = firebase.database().ref().child('카테고리/학술분과/미친애드/2_위치');
+    dbRef.on('value', snap => club_location.innerText = snap.val());
+    // 전화번호
+    var club_tel = document.getElementById('club_tel');
+    var dbRef = firebase.database().ref().child('카테고리/학술분과/미친애드/3_전화번호');
+    dbRef.on('value', snap => club_tel.innerText = snap.val());
+    // SNS
+    var club_since = document.getElementById('club_sns');
+    var dbRef = firebase.database().ref().child('카테고리/학술분과/미친애드/4_SNS');
+    dbRef.on('value', snap => club_sns.innerText = snap.val());
+    // 목적
+    var club_purpose = document.getElementById('club_purpose');
+    var dbRef = firebase.database().ref().child('카테고리/학술분과/미친애드/5_목적');
+    dbRef.on('value', snap => club_purpose.innerText = snap.val());
+    }
+//학술분과_하소연
+else if (id == "education_club2"){
+    // 분과구분
+    var club_cate = document.getElementById('club_cate');
+    var dbRef = firebase.database().ref().child('카테고리/학술분과/하소연/00_분과');
+    dbRef.on('value', snap => club_cate.innerText = snap.val());
+    // 프로필사진
+    var club_profile = document.getElementById('club_profile');
+    var dbRef = firebase.database().ref().child('카테고리/학술분과/하소연/0_프로필사진');
+    dbRef.on('value', snap => club_profile.src = snap.val());    
+    // 동아리명
+    var club_name = document.getElementById('club_name');
+    var dbRef = firebase.database().ref().child('카테고리/학술분과/하소연/1_동아리명');
+    dbRef.on('value', snap => club_name.innerText = snap.val());
+    dbRef.on('value', snap => club_title.innerText = snap.val());
+    // 위치
+    var club_location = document.getElementById('club_location');
+    var dbRef = firebase.database().ref().child('카테고리/학술분과/하소연/2_위치');
+    dbRef.on('value', snap => club_location.innerText = snap.val());
+    // 전화번호
+    var club_tel = document.getElementById('club_tel');
+    var dbRef = firebase.database().ref().child('카테고리/학술분과/하소연/3_전화번호');
+    dbRef.on('value', snap => club_tel.innerText = snap.val());
+    // SNS
+    var club_since = document.getElementById('club_sns');
+    var dbRef = firebase.database().ref().child('카테고리/학술분과/하소연/4_SNS');
+    dbRef.on('value', snap => club_sns.innerText = snap.val());
+    // 목적
+    var club_purpose = document.getElementById('club_purpose');
+    var dbRef = firebase.database().ref().child('카테고리/학술분과/하소연/5_목적');
+    dbRef.on('value', snap => club_purpose.innerText = snap.val());
+    }
+//학술분과_고나푸스
+else if (id == "education_club3"){
+    // 분과구분
+    var club_cate = document.getElementById('club_cate');
+    var dbRef = firebase.database().ref().child('카테고리/학술분과/고나푸스/00_분과');
+    dbRef.on('value', snap => club_cate.innerText = snap.val());
+    // 프로필사진
+    var club_profile = document.getElementById('club_profile');
+    var dbRef = firebase.database().ref().child('카테고리/학술분과/고나푸스/0_프로필사진');
+    dbRef.on('value', snap => club_profile.src = snap.val());    
+    // 동아리명
+    var club_name = document.getElementById('club_name');
+    var dbRef = firebase.database().ref().child('카테고리/학술분과/고나푸스/1_동아리명');
+    dbRef.on('value', snap => club_name.innerText = snap.val());
+    dbRef.on('value', snap => club_title.innerText = snap.val());
+    // 위치
+    var club_location = document.getElementById('club_location');
+    var dbRef = firebase.database().ref().child('카테고리/학술분과/고나푸스/2_위치');
+    dbRef.on('value', snap => club_location.innerText = snap.val());
+    // 전화번호
+    var club_tel = document.getElementById('club_tel');
+    var dbRef = firebase.database().ref().child('카테고리/학술분과/고나푸스/3_전화번호');
+    dbRef.on('value', snap => club_tel.innerText = snap.val());
+    // SNS
+    var club_since = document.getElementById('club_sns');
+    var dbRef = firebase.database().ref().child('카테고리/학술분과/고나푸스/4_SNS');
+    dbRef.on('value', snap => club_sns.innerText = snap.val());
+    // 목적
+    var club_purpose = document.getElementById('club_purpose');
+    var dbRef = firebase.database().ref().child('카테고리/학술분과/고나푸스/5_목적');
+    dbRef.on('value', snap => club_purpose.innerText = snap.val());
+    }
+</script>
+
+</body>
+
+</html>

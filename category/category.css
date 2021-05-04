@@ -1,0 +1,265 @@
+/* 전체 설정 */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;1,500;1,600&display=swap');
+@font-face {
+font-family: "NEXON Lv2 Gothic";
+src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv2 Gothic.woff") format("woff");
+font-weight: normal;
+font-style: normal;}
+body {
+    margin : 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    font-family: "NEXON Lv2 Gothic";
+}
+li {
+    list-style : none;
+}
+/* 상단 바 */
+.status-bar__logo {
+    font-family: "Montserrat";
+    margin-left: 20px;
+    font-weight: 600;
+    font-style: italic;
+    color:white;
+    text-decoration:none;}
+
+.status-bar {
+    height: 60px;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    justify-content: space-between;
+    background-color: #2a294b;
+    align-items: center;
+    font-size: 30px;}
+
+.status-bar__btn{
+    background-color:#2a294b;
+    color:white;
+    padding: 13px;
+    font-size:20px;
+    border:none;
+    min-width:130px;
+    height:60px;
+    font-family: "NEXON Lv2 Gothic";}
+
+.status-bar__right{
+    margin-right:30px;
+}
+.status-bar__menu{
+    position: relative;
+    display: inline-block;
+}
+
+.status-bar__content {
+    display: none;
+    position: absolute;
+    background-color: #23223d;
+    min-width: 130px;
+    font-size:15px;
+    text-align:center;
+    text-decoration:none;
+    color:white;
+  }
+
+  .status-bar__content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .status-bar__menu:hover .status-bar__btn{
+    background-color:  #2a294b;
+    color:rgb(247, 235, 169);}
+  .status-bar__content a:hover {
+    background-color:#ffffff;
+    color:black;
+    font-weight:bold;}
+  .status-bar__menu:hover .status-bar__content {
+      display: block;}
+
+.title {
+    padding-top: 60px;
+    height: 200px;
+    background-color: #2a294b;
+    text-align: center;
+    color: #ffffff;
+}
+.title > h3 {
+    font-size: 20px;
+    padding-top: 1%;
+}
+i{
+    padding-right: 10px;
+    color: #cbcbcb;
+}
+#__title{
+    display: inline;
+    position: relative;
+    left : 1%;  /* 수정 12/01/20 */
+
+}
+#martial{
+   vertical-align: bottom;
+}
+/* ver1. 슬라이더 구현 */
+.info_main{
+    width: 72%;
+    margin : auto;
+    padding-top: 70px;
+  }
+.section {
+    position: relative;
+}
+
+.section input {
+    display: none;
+}
+
+.section .slidewrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;}
+
+.section .slidelist{
+    padding-left: 0;
+    white-space: nowrap;
+}
+.section .slidelist > li {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    width: 100%;
+    transition: all .5s;}
+
+.section .slidelist > li > a {
+    position: relative;
+    display: inline-block;
+    width: 24%;
+}
+
+.section .slidelist > li > a .screen {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    left: 8%;
+}
+.section .slidelist label {
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 50px;
+    cursor: pointer;}
+
+.slidelist li a div .top{
+    position: absolute;
+    bottom: 150%;
+    left: 35px;
+    z-index: 2;
+    color : #ffffff;
+    font-size: 26px;
+    font-weight: 900;
+    transition: all .35s;
+}
+.slidelist li a div .bottom {
+    position: absolute;
+    top: 150%;
+    left: 20px;
+    z-index: 2;
+    color: #ffffff;
+    font-size: 25px;
+    transition: all .35s;
+}
+.slidelist li a div::after {
+    content: '';  
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background : rgba(0,0,0,.5);
+    z-index: 1;
+    opacity: 0;
+    transition: all .35s;
+}
+.slidelist li a:hover .screen::after {
+    opacity: 1;
+}
+ul > li > a:hover .top {bottom:60%;}
+ul > li > a:hover .bottom {top:52%;}
+.section .slidelist > li > a > div > img {
+    width: 100%;
+    height: 60%;
+    padding-right: 4px;
+}
+
+.section .slidelist .left {
+    left:-45px;
+    background: url('../picture/left123.png') center center / 30% no-repeat;}
+.section .slidelist .right {
+    right: -58px;
+    background: url('../picture/right123.png') center center / 40% no-repeat;}
+
+    .section [id="slide01"]:checked ~ .slidewrap .slidelist > li {transform:translateX(0%);}
+    .section [id="slide02"]:checked ~ .slidewrap .slidelist > li {transform:translateX(-100%);}
+    .section [id="slide03"]:checked ~ .slidewrap .slidelist > li {transform:translateX(-200%);}
+    .section [id="slide04"]:checked ~ .slidewrap .slidelist > li {transform:translateX(-300%);}
+    .section [id="slide05"]:checked ~ .slidewrap .slidelist > li {transform:translateX(-400%);}
+    .section [id="slide06"]:checked ~ .slidewrap .slidelist > li {transform:translateX(-500%);}
+    .section .slide-control [class*="control"] {display: none;}
+    .section [id="slide01"]:checked ~ .slidewrap .control01 {display: block;}
+    .section [id="slide02"]:checked ~ .slidewrap .control02 {display: block;}
+    .section [id="slide03"]:checked ~ .slidewrap .control03 {display: block;}
+    .section [id="slide04"]:checked ~ .slidewrap .control04 {display: block;}
+    .section [id="slide05"]:checked ~ .slidewrap .control05 {display: block;}
+    .section [id="slide06"]:checked ~ .slidewrap .control06 {display: block;}
+
+
+ /* 가로 스크롤바
+ .swiper {
+     margin : 5px auto;
+     width: 70%;
+     white-space: nowrap;
+     overflow-x: scroll;
+     padding : 30px;
+ }
+.swiper li{
+    margin : 0px 10px;
+    width:310px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    border-radius: 15px;
+}
+.swiper li:nth-child(1) {
+    background-image: url("../picture/test1.jpg");
+}
+.swiper li:nth-child(2) {
+    background-image: url("../picture/test2.jpg");
+}
+.swiper li:nth-child(3) {
+    background-image: url("../picture/test3.jpg");
+}
+.swiper li:nth-child(4) {
+    background-image: url("../picture/test4.jpg");
+}
+.swiper li:nth-child(5) {
+    background-image: url("../picture/test5.jpg");
+}
+.swiper li:nth-child(6) {
+    background-image: url("../picture/test6.jpg");
+}
+.swiper li:nth-child(7) {
+    background-image: url("../picture/test7.jpg");
+}
+.swiper li:nth-child(8) {
+    background-image: url("../picture/test8.jpg");
+}
+
+*/

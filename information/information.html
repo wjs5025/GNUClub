@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <!--fontawesome-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" />
+  <link rel="stylesheet" href="information.css" />
+  <title>GNU CLUB Information</title>
+</head>
+<body>
+  <!--상단바-->
+  <nav class="status-bar">
+    <a href="../index.html" class="status-bar__logo">
+      <span>GNU CLUB</span>
+    </a>
+    <div class="status-bar__right">
+      <div class=status-bar__menu>
+        <button class="status-bar__btn">소개</button>
+        <div class="status-bar__content">
+          <a href="information.html">인사말</a>
+        </div>
+      </div>
+      <div class=status-bar__menu>
+        <button class="status-bar__btn">동아리 분과</button>
+        <div class="status-bar__content">
+          <a href="../category/cate_festival.html">공연 분과</a>
+          <a href="../category/cate_global.html">국제 분과</a>
+          <a href="../category/cate_paint.html">그림 분과</a>
+          <a href="../category/cate_martial.html">무예 분과</a>
+          <a href="../category/cate_literature.html">문학 분과</a>
+          <a href="../category/cate_volunteer.html">봉사 분과</a>
+          <a href="../category/cate_culture.html">생활 분과</a>
+          <a href="../category/cate_language.html">외국어 분과</a>
+          <a href="../category/cate_religion.html">종교 분과</a>
+          <a href="../category/cate_startup.html">창업 분과</a>
+          <a href="../category/cate_physical.html">체육 분과</a>
+          <a href="../category/cate_education.html">학술 분과</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!--슬라이더-->    
+
+  <main class="back">
+    <div class="info_main">
+      <div class="section">
+        <input type="radio" name="slide" id="slide01" checked>
+        <input type="radio" name="slide" id="slide02">
+        <input type="radio" name="slide" id="slide03">
+        <div class="slidewrap">
+          <ul class="slidelist">
+            <li>
+              <a>
+                <img src="../picture/info1.png">
+              </a>
+            </li>
+            <li>
+              <a>
+                <img src="../picture/info2.png">
+              </a>
+            </li>
+            <li>
+              <a>
+                <img src="../picture/info3.png">
+              </a>
+            </li>
+            <div class="slide-control">
+              <div class="control01">
+                <label for="slide03" class="left"></label>
+                <label for="slide02" class="right"></label>
+              </div>
+              <div class="control02">
+                <label for="slide01" class="left"></label>
+                <label for="slide03" class="right"></label>
+              </div>
+              <div class="control03">
+                <label for="slide02" class="left"></label>
+                <label for="slide01" class="right"></label>
+              </div>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>

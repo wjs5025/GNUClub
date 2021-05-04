@@ -1,0 +1,159 @@
+/* 전체설정 */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;1,500;1,600&display=swap');
+@font-face {
+    font-family: "NEXON Lv2 Gothic";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv2 Gothic.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;}
+html{
+        height: 100%;
+        width: 100%;
+      }
+body {
+    overflow: hidden;
+    margin:0;
+    padding-top:60px;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(225, 225, 225, 0.4), rgba(225, 225, 225, 0.4)), url("../picture/gnu.jpeg");
+    /* linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), */
+    background-size: 100% 100%;
+    background-position: center;
+    font-family: "NEXON Lv2 Gothic";
+    background-color: #fff
+} 
+
+main {
+    color: white;
+    padding-top: 3%;
+    height: 100%;
+    width: 100%;
+    font-size: 30px;
+   }
+
+/* 상단 바 */
+.status-bar__logo {
+    font-family: "Montserrat";
+    margin-left: 20px;
+    font-weight: 600;
+    font-style: italic;
+    color:white;
+    text-decoration:none;}
+
+.status-bar {
+    height: 60px;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    justify-content: space-between;
+    background-color: #2a294b;
+    align-items: center;
+    font-size: 30px;}
+
+.status-bar__btn{
+    background-color:#2a294b;
+    color:white;
+    padding: 13px;
+    font-size:20px;
+    border:none;
+    min-width:130px;
+    height:60px;
+    font-family: "NEXON Lv2 Gothic";}
+
+.status-bar__right{
+    margin-right:30px;
+}
+.status-bar__menu{
+    position: relative;
+    display: inline-block;
+}
+
+.status-bar__content {
+    display: none;
+    position: absolute;
+    background-color: #2a294b;
+    min-width: 130px;
+    font-size:15px;
+    text-align:center;
+    text-decoration:none;
+    color:white;
+  }
+  
+  .status-bar__content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .status-bar__menu:hover .status-bar__btn{
+    background-color:  #2a294b;
+    color:rgb(247, 235, 169);}
+  .status-bar__content a:hover {
+    background-color:#ffffff;
+    color:black;
+    font-weight:bold;}
+  .status-bar__menu:hover .status-bar__content {
+      display: block;}
+
+
+/* 슬라이더 구현 */
+.info_main{
+    width: 58%;
+    margin: auto;
+    margin-top: -100px;
+  }
+.section {
+    position: relative;
+    margin-top: 150px;
+}
+.section input {
+    display: none;
+}
+
+.section .slidewrap {
+    width: auto;
+
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;}
+
+.section .slidelist{
+    padding-left: 0;
+    white-space: nowrap;
+    z-index: 3;
+}
+
+.section .slidelist > li {
+    z-index: 3;
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    transition: all .5s;}
+
+.section .slidelist > li > a > img {
+    width: 100%;
+}
+.section .slidelist label {
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 50px;
+    cursor: pointer;}
+
+    .section .slidelist .left {
+        left:-91px;
+        background: url('../picture/left11111.png') center center / 42% no-repeat;}
+    .section .slidelist .right {
+        right: -98px;
+        background: url('../picture/right11111.png') center center / 52% no-repeat;}
+
+.section [id="slide01"]:checked ~ .slidewrap .slidelist > li {transform:translateX(0%);}
+.section [id="slide02"]:checked ~ .slidewrap .slidelist > li {transform:translateX(-100%);}
+.section [id="slide03"]:checked ~ .slidewrap .slidelist > li {transform:translateX(-200%);}
+.section .slide-control [class*="control"] {display: none;}
+.section [id="slide01"]:checked ~ .slidewrap .control01 {display: block;}
+.section [id="slide02"]:checked ~ .slidewrap .control02 {display: block;}
+.section [id="slide03"]:checked ~ .slidewrap .control03 {display: block;}
